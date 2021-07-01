@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>Primera parte | Ciencia Política: Teoría y Práctica</title>
+  <meta name="description" content="Los estudiantes con poca experiencia en estadística y econometría a menudo tienen dificultades para entender los beneficios de desarrollar habilidades de programación al momento de aplicar diversos métodos econométricos. ‘CienciaPolitica: Econometría avanzada y ciencia de datos con R’ por Jeshua Romero Guadarrama (2021), ofrece una introducción interactiva a los aspectos esenciales de la programación por medio del lenguaje y software estadístico R, así como una guía para la aplicación de la teoría económica y econométrica en entornos específicos. En otras palabras, el objetivo es que los estudiantes se adentren al mundo de la economía aplicada mediante ejemplos empíricos presentados en la vida diaria y haciendo uso de las habilidades de programación recién adquiridas. Dicho objetivo se encuentra respaldado por ejercicios de programación interactivos generados con DataCamp Light y la incorporación de visualizaciones dinámicas de conceptos fundamentales mediante la flexibilidad de JavaScript, a través de la biblioteca D3.js." />
+  <meta name="generator" content="bookdown 0.22 and GitBook 2.6.7" />
+
+  <meta property="og:title" content="Primera parte | Ciencia Política: Teoría y Práctica" />
+  <meta property="og:type" content="book" />
+  <meta property="og:url" content="https://jeshua-romero-guadarrama.github.io/CienciaPolitica/" />
+  <meta property="og:image" content="https://jeshua-romero-guadarrama.github.io/CienciaPolitica//images/cover.png" />
+  <meta property="og:description" content="Los estudiantes con poca experiencia en estadística y econometría a menudo tienen dificultades para entender los beneficios de desarrollar habilidades de programación al momento de aplicar diversos métodos econométricos. ‘CienciaPolitica: Econometría avanzada y ciencia de datos con R’ por Jeshua Romero Guadarrama (2021), ofrece una introducción interactiva a los aspectos esenciales de la programación por medio del lenguaje y software estadístico R, así como una guía para la aplicación de la teoría económica y econométrica en entornos específicos. En otras palabras, el objetivo es que los estudiantes se adentren al mundo de la economía aplicada mediante ejemplos empíricos presentados en la vida diaria y haciendo uso de las habilidades de programación recién adquiridas. Dicho objetivo se encuentra respaldado por ejercicios de programación interactivos generados con DataCamp Light y la incorporación de visualizaciones dinámicas de conceptos fundamentales mediante la flexibilidad de JavaScript, a través de la biblioteca D3.js." />
+  <meta name="github-repo" content="https://github.com/Jeshua-Romero-Guadarrama/CienciaPolitica" />
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Primera parte | Ciencia Política: Teoría y Práctica" />
+  
+  <meta name="twitter:description" content="Los estudiantes con poca experiencia en estadística y econometría a menudo tienen dificultades para entender los beneficios de desarrollar habilidades de programación al momento de aplicar diversos métodos econométricos. ‘CienciaPolitica: Econometría avanzada y ciencia de datos con R’ por Jeshua Romero Guadarrama (2021), ofrece una introducción interactiva a los aspectos esenciales de la programación por medio del lenguaje y software estadístico R, así como una guía para la aplicación de la teoría económica y econométrica en entornos específicos. En otras palabras, el objetivo es que los estudiantes se adentren al mundo de la economía aplicada mediante ejemplos empíricos presentados en la vida diaria y haciendo uso de las habilidades de programación recién adquiridas. Dicho objetivo se encuentra respaldado por ejercicios de programación interactivos generados con DataCamp Light y la incorporación de visualizaciones dinámicas de conceptos fundamentales mediante la flexibilidad de JavaScript, a través de la biblioteca D3.js." />
+  <meta name="twitter:image" content="https://jeshua-romero-guadarrama.github.io/CienciaPolitica//images/cover.png" />
+
+<meta name="author" content="Jeshua Romero Guadarrama" />
+
+
+<meta name="date" content="2021-07-01" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  
+  
+<link rel="prev" href="2-Lateoríapolítica.html"/>
+<link rel="next" href="segunda-parte.html"/>
+<script src="libs/header-attrs-2.8/header-attrs.js"></script>
+<script src="libs/jquery-2.2.3/jquery.min.js"></script>
+<link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-clipboard.css" rel="stylesheet" />
+
+
+
+
+
+
+
+
+
+<link href="libs/anchor-sections-1.0.1/anchor-sections.css" rel="stylesheet" />
+<script src="libs/anchor-sections-1.0.1/anchor-sections.js"></script>
+<!-- font families -->
+
+<link href="https://fonts.googleapis.com/css?family=PT+Sans|Pacifico|Source+Sans+Pro" rel="stylesheet">
+
+<script src="js/hideOutput.js"></script>
+
+<!-- Mathjax -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/config/default.js"></script>
+
+ <script type="text/x-mathjax-config">
+      MathJax.Hub.Config({
+        extensions: ["tex2jax.js", "TeX/AMSmath.js"],
+        tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]},
+        jax: ["input/TeX","output/CommonHTML"]
+      });
+      MathJax.Hub.processSectionDelay = 0;
+  </script>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-110299877-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-110299877-1');
+</script>
+
+<!-- open review block -->
+
+<script async defer src="https://hypothes.is/embed.js"></script>
+
+
+
+
+<style type="text/css">
+/* Used with Pandoc 2.11+ new --citeproc when CSL is used */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}
+</style>
+
+<link rel="stylesheet" href="style.css" type="text/css" />
+<link rel="stylesheet" href="toc.css" type="text/css" />
+</head>
+
+<body>
+
+
+
+  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
+
+    <div class="book-summary">
+      <nav role="navigation">
+
+<ul class="summary">
+<li><center><img src="images/logo.png" alt="logo" width="50%" height="50%"style="margin: 15px 0 0 0"></center></li>
+
+<li class="divider"></li>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i>Prefacio</a></li>
+<li class="chapter" data-level="1" data-path="1-Introducción.html"><a href="1-Introducción.html"><i class="fa fa-check"></i><b>1</b> Introducción</a></li>
+<li class="chapter" data-level="2" data-path="2-Lateoríapolítica.html"><a href="2-Lateoríapolítica.html"><i class="fa fa-check"></i><b>2</b> La teoría política</a>
+<ul>
+<li class="chapter" data-level="" data-path="primera-parte.html"><a href="primera-parte.html"><i class="fa fa-check"></i>Primera parte</a>
+<ul>
+<li class="chapter" data-level="" data-path="primera-parte.html"><a href="primera-parte.html#fases-de-la-actividad-científica"><i class="fa fa-check"></i>Fases de la actividad científica</a></li>
+<li class="chapter" data-level="" data-path="primera-parte.html"><a href="primera-parte.html#la-descripción"><i class="fa fa-check"></i>La descripción</a></li>
+<li class="chapter" data-level="" data-path="primera-parte.html"><a href="primera-parte.html#la-explicación"><i class="fa fa-check"></i>La explicación</a></li>
+<li class="chapter" data-level="" data-path="primera-parte.html"><a href="primera-parte.html#la-generalización"><i class="fa fa-check"></i>La generalización</a></li>
+<li class="chapter" data-level="" data-path="primera-parte.html"><a href="primera-parte.html#las-teorías-y-cuasi-teorías"><i class="fa fa-check"></i>Las teorías y cuasi-teorías</a></li>
+<li class="chapter" data-level="" data-path="primera-parte.html"><a href="primera-parte.html#las-clasificaciones"><i class="fa fa-check"></i>Las clasificaciones</a></li>
+<li class="chapter" data-level="" data-path="primera-parte.html"><a href="primera-parte.html#las-dicotomías"><i class="fa fa-check"></i>Las dicotomías</a></li>
+<li class="chapter" data-level="" data-path="primera-parte.html"><a href="primera-parte.html#las-analogías"><i class="fa fa-check"></i>Las analogías</a></li>
+</ul></li>
+<li class="chapter" data-level="" data-path="segunda-parte.html"><a href="segunda-parte.html"><i class="fa fa-check"></i>Segunda parte</a>
+<ul>
+<li class="chapter" data-level="" data-path="segunda-parte.html"><a href="segunda-parte.html#la-evaluación-del-fenómeno-político"><i class="fa fa-check"></i>La evaluación del fenómeno político</a></li>
+</ul></li>
+<li class="chapter" data-level="" data-path="tercera-parte.html"><a href="tercera-parte.html"><i class="fa fa-check"></i>Tercera parte</a>
+<ul>
+<li class="chapter" data-level="" data-path="tercera-parte.html"><a href="tercera-parte.html#el-concepto-teórico-político.-comparaciones-con-los-de-otras-ciencias"><i class="fa fa-check"></i>El concepto teórico político. Comparaciones con los de otras ciencias</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="3" data-path="3-Lasteoríasnormativas.html"><a href="3-Lasteoríasnormativas.html"><i class="fa fa-check"></i><b>3</b> Las teorías normativas</a>
+<ul>
+<li class="chapter" data-level="" data-path="primera-parte-1.html"><a href="primera-parte-1.html"><i class="fa fa-check"></i>Primera parte</a>
+<ul>
+<li class="chapter" data-level="" data-path="primera-parte-1.html"><a href="primera-parte-1.html#rasgos-generales"><i class="fa fa-check"></i>Rasgos generales</a></li>
+<li class="chapter" data-level="" data-path="primera-parte-1.html"><a href="primera-parte-1.html#teorías-políticas-normativas-clásicas"><i class="fa fa-check"></i>Teorías políticas normativas clásicas</a></li>
+</ul></li>
+<li class="chapter" data-level="" data-path="segunda-parte-1.html"><a href="segunda-parte-1.html"><i class="fa fa-check"></i>Segunda parte</a>
+<ul>
+<li class="chapter" data-level="" data-path="segunda-parte-1.html"><a href="segunda-parte-1.html#el-pensamiento-político-chino"><i class="fa fa-check"></i>El pensamiento político chino</a></li>
+<li class="chapter" data-level="" data-path="segunda-parte-1.html"><a href="segunda-parte-1.html#el-pensamiento-político-hindú"><i class="fa fa-check"></i>El pensamiento político hindú</a></li>
+<li class="chapter" data-level="" data-path="segunda-parte-1.html"><a href="segunda-parte-1.html#el-pensamiento-político-judío-clásico"><i class="fa fa-check"></i>El pensamiento político judío clásico</a></li>
+<li class="chapter" data-level="" data-path="segunda-parte-1.html"><a href="segunda-parte-1.html#el-pensamiento-político-islámico-clásico"><i class="fa fa-check"></i>El pensamiento político islámico clásico</a></li>
+<li class="chapter" data-level="" data-path="segunda-parte-1.html"><a href="segunda-parte-1.html#el-pensamiento-político-griego-clásico"><i class="fa fa-check"></i>El pensamiento político griego clásico</a></li>
+<li class="chapter" data-level="" data-path="segunda-parte-1.html"><a href="segunda-parte-1.html#el-pensamiento-político-romano-clásico"><i class="fa fa-check"></i>El pensamiento político romano clásico</a></li>
+<li class="chapter" data-level="" data-path="segunda-parte-1.html"><a href="segunda-parte-1.html#el-pensamiento-político-medieval"><i class="fa fa-check"></i>El pensamiento político medieval</a></li>
+<li class="chapter" data-level="" data-path="segunda-parte-1.html"><a href="segunda-parte-1.html#el-pensamiento-político-moderno"><i class="fa fa-check"></i>El pensamiento político moderno</a></li>
+<li class="chapter" data-level="" data-path="segunda-parte-1.html"><a href="segunda-parte-1.html#tercera-parte-1"><i class="fa fa-check"></i>Tercera parte</a></li>
+</ul></li>
+<li class="chapter" data-level="" data-path="teorías-políticas-normativas-contemporáneas.html"><a href="teorías-políticas-normativas-contemporáneas.html"><i class="fa fa-check"></i>Teorías políticas normativas contemporáneas</a></li>
+</ul></li>
+<li class="chapter" data-level="" data-path="referencias-bibliográficas.html"><a href="referencias-bibliográficas.html"><i class="fa fa-check"></i>Referencias bibliográficas</a></li>
+<li class="divider"></li>
+<li><a href="https://www.jeshuanomics.com/" target="blank">Publicado por JeshuaNomics</a></li>
+<li><a href="https://github.com/JeshuaNomics" class="fa fa-github"><span class="label">  Git Hub</span></a></li>	
+<li><a href="https://www.facebook.com/JeshuaNomics/" class="fa fa-facebook"><span class="label">  Facebook</span></a></li>
+<li><a href="https://twitter.com/JeshuaNomics" class="fa fa-twitter"><span class="label">  Twitter</span></a></li>
+<li><a href="https://www.linkedin.com/in/jeshua-romero-guadarrama/" class="fa fa-linkedin"><span class="label">  Linkedin</span></a></li>
+<li><a href="https://vk.com/jeshuanomics" class="fa fa-vk"><span class="label">  Vkontakte</span></a></li>
+<li><a href="https://jeshuanomics.tumblr.com/" class="fa fa-tumblr"><span class="label">  Tumblr</span></a></li>
+<li><a href="https://www.youtube.com/channel/UCY7f84mJGvMN7TF7XI4-Jgg?view_as=subscriber/" class="fa fa-youtube-play"><span class="label">  YouTube</span></a></li>	
+<li><a href="https://www.instagram.com/JeshuaNomics/" class="fa fa-instagram"><span class="label">  Instagram</span></a></li>
+
+</ul>
+
+      </nav>
+    </div>
+
+    <div class="book-body">
+      <div class="body-inner">
+        <div class="book-header" role="navigation">
+          <h1>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">Ciencia Política: Teoría y Práctica</a>
+          </h1>
+        </div>
+
+        <div class="page-wrapper" tabindex="-1" role="main">
+          <div class="page-inner">
+
+            <section class="normal" id="section-">
+<div id="primera-parte" class="section level2 unnumbered">
+<h2>Primera parte</h2>
+<div id="fases-de-la-actividad-científica" class="section level3 unnumbered">
+<h3>Fases de la actividad científica</h3>
+<p>Bertrand de Jouvenel,en su libro TEORIA PURA DE LA POLITICA, cuando habla sobre “teoría” en general, hace notar que las observaciones en sí mismas carecen de significado. Para darles sentido se debe formular una hipótesis que sea capaz de explicarlas.</p>
+<p>Esto significa elegir conceptos, establecer relaciones entre ellos para elaborar un “modelo” que interprete adecuadamente la realidad. Esta compleja actividad de la mente humana se designa habitualmente como TEORIZAR; los modelos así elaborados tienen una función representativa-explicativa y carecen de valor normativo.</p>
+<p>Bertrand de Jouvenel también menciona que en la Ciencia Política clásica, la llamada Teoría Política también ofrecía modelos, pero de otro tipo: eran modelos ideales o normativos, expresivos de un “deber ser” de los fenómenos aludidos, animados de una intención preceptiva.</p>
+<p>Por respeto al pluralismo filosófico y porque forman indudablemente parte del pensamiento político sistemático, vamos a incluir en este libro el estudio de las teorías normativas, pero hacemos notar que en la Ciencia Política actual predomina netamente la actitud descriptiva-explicativa, estrictamente no-normativa.</p>
+<p>La actividad científica cuyo producto final son las teorías, y a la que en su conjunto hemos llamado teorizar, consta de varias fases, que se encadenan en una sucesión ordenada. Esas fases reciben los nombres de: * Descripción; * Explicación; * Generalización; * Teoría o Cuasi-teoría.</p>
+</div>
+<div id="la-descripción" class="section level3 unnumbered">
+<h3>La descripción</h3>
+<p>Las descripciones proporcionan el punto de partida al pensamiento; precisan aquéllo que luego hay que intentar explicar. Una descripción es válida, desde el punto de vista científico, si es producto de la observación sistemática y puede ser verificada mediante otras observaciones. Para describir hay que tener bien clara la diferencia entre “hecho” y “concepto.” Un hecho es un conjunto de propiedades observadas, a las que se les ha puesto nombre. Un concepto es un artificio intelectual, un principio de abstracción, que permite operar con esas observaciones. La validez de los conceptos depende de la relación que guarden con los hechos de observación empírica en el mundo concreto.</p>
+<p>Una descripción es más o menos fiable según la calidad y tipo de las observaciones que hayan servido para construirla. En general conviene tener en cuenta los siguientes principios:</p>
+<ul>
+<li>La observación de aspectos objetivos es más fiable que la observación de estados subjetivos.</li>
+<li>Los datos controlados son más precisos que los obtenidos por simple observación.</li>
+<li>Los datos medibles son más fiables que los no medibles, pero éstos suelen ser más importantes.</li>
+</ul>
+<p>Para describir no basta con disponer de un cúmulo de observaciones. Es necesario tener, además, un esquema conceptual. En principio, este esquema configura una hipótesis e influye mucho en la descripción, y en el significado atribuíble a los hechos involucrados, por lo que es importante que no contenga prejuicios valorativos que puedan afectar la fiabilidad de la descripción.</p>
+</div>
+<div id="la-explicación" class="section level3 unnumbered">
+<h3>La explicación</h3>
+<p>Un cúmulo de observaciones de hechos aislados no tiene en si mismo significado; la descripción le da un principio de significación, pero la plenitud de su significado y utilidad la alcanza cuando se lograr relacionar sistemáticamente los hechos. Ese proceso de conexión coherente de hechos diferentes se llama EXPLICACION y se hace a partir de descripciones.</p>
+<p>En el contexto científico, explicar no significa “captar la esencia” ni nada por el estilo. Todo lo que podemos afirmar es que las cosas ocurren “como si” actuaran de determinada manera, y que podemos usar con razonable seguridad ese conocimiento, aunque no podamos “explicar” (en un sentido más profundo) porqué ese comportamiento es efectivamente así. La explicación vincula dos o más acontecimientos y a la vez crea un conjunto de espectativas hacia el futuro sobre la base de la experiencia del pasado.</p>
+<p>En Ciencia Política -como en las ciencias del hombre en general- la inmensa mayoría de las explicaciones son inducciones probabilísticas. Muy rara vez es posible enunciar explicaciones deductivas. Encontramos explicaciones de hechos que probablemente van a ocurrir, pero con un considerable márgen de incertidumbre. Se usan, pues, expresiones tales como “tiende a,” o “generalmente,” o “en la mayoría de los casos,” o a lo sumo “en el n% de los casos” , en lugar de expresiones tales como “siempre” o “nunca.”</p>
+<p>La búsqueda de una “explicación de la explicación” es el paso a las fases siguientes, de la generalización y la teoría.</p>
+</div>
+<div id="la-generalización" class="section level3 unnumbered">
+<h3>La generalización</h3>
+<p>Las generalizaciones se construyen a partir de explicaciones. Formalmente pueden ser definidas como “proposiciones que relacionan dos o más clases de acontecimientos, de modo que todos o algunos de los acontecimientos de una clase lo son también de la otra u otras.” Hay tres tipos básicos de generalizaciones: * Las generalizaciones universales, que responden a la forma “todo A es B.” Esta relación no es reversible: no todo B es A.</p>
+<ul>
+<li><p>Las generalizaciones probabilísticas, cuya forma es “el n% de A es B.” Este tipo de generalizaciones solo puede aplicarse a clases enteras, no a los miembros de una clase en forma aislada.</p></li>
+<li><p>Los enunciados de tendencia, cuya forma es “algunos A son B” o “A tiende a ser B, a menos que algo lo impida.” Se diferencian de los anteriores en que no especifican una relación numérica o porcentual entre A y B. También son aplicables a clases, no a individuos aislados.</p></li>
+</ul>
+<p>Actualmente la Ciencia Política está compuesta casi totalmente por generalizaciones probabilísticas y enunciados de tendencia.</p>
+<p>Las generalizaciones no son tautológicas porque añaden un conocimiento nuevo al vincular clases de acontecimientos. Son afirmaciones que van más allá de las descripciones y las explicaciones que les sirven de base. Dicen cosas sobre clases de acontecimientos no observadas en su totalidad, razón por la cual ninguna generalización es totalmente cierta, pero sí lo es en la medida de su alcance relativo y contingente.</p>
+<p>Una generalización -y en general, toda proposición inductiva-nunca puede “probarse” mediante su cumplimiento en casos particulares, aunque así aumenta evidentemente su márgen de credibilidad. En cambio sí puede “falsearse” mediante la verificación de los casos en los que no se cumple, los cuales, de producirse, invalidan la proposición. En esencia, ésta es la posición epistemológica de Popper.</p>
+</div>
+<div id="las-teorías-y-cuasi-teorías" class="section level3 unnumbered">
+<h3>Las teorías y cuasi-teorías</h3>
+<p>Formalmente, una teoría es “un conjunto de generalizaciones deductivamente vinculadas, que sirve para explicar otras generalizaciones.” Fundamentalmente, una teoría debe tener potencia explicativa sobre un determinado orden de fenómenos. También suele tener capacidad predictiva; indica áreas cuyo estudio debe profundizarse y sugiere los probables efectos de cambios producidos o promovidos en las variables que configuran una situación.</p>
+<p>Las cuasi-teorías son estructuras conceptuales de tipo teórico, pero no deductivamente vinculadas. Algunas cuasi-teorías explican pero no predicen; otras predicen pero no explican; otras no explican ni predicen pero son muy sugerentes o aportan claridad al ordenamiento de las ideas.</p>
+<p>En un planteo lógico-formal estricto, “teoría deductiva” es una jerarquía de proposiciones universales formalmente deducidas de un conjunto de primeros axiomas. En las ciencias del hombre no hay este tipo de teorías. Forzosamente hay que tener un criterio más amplio. Según A. Kaplan, cuando las generalizaciones están conectadas entre sí por medio del fenómeno que han de explicar (que es el caso más frecuente en las ciencias sociales) tenemos las llamadas “teorías concatenadas.” Un ejemplo de ellas lo proporcionan las llamadas “teorías de factores,” que explican fenómenos determinando las condiciones necesarias, o las suficientes, o ambas, para que el fenómeno se produzca.</p>
+<p>Las teorías, pues, pueden ser deductivas (si cumplen las condiciones formales) o concatenadas, las cuales a su vez pueden ser: * causales: se refieren a las condiciones de aparición de los fenómenos; * genéticas: se refieren a los estadios de desarrollo de los fenómenos; * teleológicas: se refieren a su finalidad.</p>
+<p>Hasta ahora, la mayor parte de las estructuras conceptuales de la Ciencia Política son cuasi-teorías, excepto algunas teorías factoriales. En Ciencia Política las generalizaciones realmente adecuadas para construir teorías son escasas; hay amplias zonas aún no exploradas en profundidad; la medición es difícil y muchas veces imposible; son muy pocas las posibilidades de realizar experimentos controlados, y la terminología es imprecisa. Por consiguiente, las teorías son débiles y los desarrollos científicos se basan sobre todo en cuasi-teorías, especialmente en dicotomías y analogías.</p>
+<p>Para construir cuasi-teorías se supone que un conjunto de fenómenos se comporta de acuerdo a ellas. Se opera con los datos -por ejemplo- como si la analogía o la dicotomía fueran una teoría sólidamente establecida. Estas estructuras explicativas son valiosas; constituyen una estrategia de investigación positiva; son a menudo fuentes de futuras teorías, pero entrañan un riesgo grande: forzar los hechos para acomodarlos a una estructura previa, lo que produce resultados científicamente cuestionables. Los principales tipos de cuasi-teorías son las clasificaciones, las dicotomías y las analogías.</p>
+</div>
+<div id="las-clasificaciones" class="section level3 unnumbered">
+<h3>Las clasificaciones</h3>
+<p>Son las formas más simples de estructuras conceptuales teóricas. Son conjuntos de categorías a priori, usados para ordenar los datos provenientes de la observación. Un sistema de clasificación afirma que todos los miembros de una clase particular comparten -por definición- ciertas propiedades. Un buen sistema de este tipo clarifica y puede sugerir muchas cosas, pero no es en sí mismo una explicación ni añade nada nuevo a nuestros conocimientos. Su utilidad reside en el servicio que presta para la recolección ordenada de datos; y en las sugerencias con que puede orientar una investigación, especialmente en áreas poco exploradas. Aunque el ordenamiento propuesto luego resulte incorrecto y haya que reelaborarlo, lo mismo tiene valor porque siempre es más fácil manejar datos ordenados que datos distribuídos al azar. No existe un paradigma clasificatorio que sirva para todo. Cada clasificación responde a un propósito y su única condición de validez es que sea útil.</p>
+</div>
+<div id="las-dicotomías" class="section level3 unnumbered">
+<h3>Las dicotomías</h3>
+<p>Hay dos formas de dicotomías: una, más simple, está compuesta por dos polos opuestos, sin términos medios (son, por ejemplo, del tipo blanco/negro, día/noche, etc.). Otra. más compleja, toma la forma de un “continuum” entre dos polos extremos, con un centro o término medio y ciertos intervalos (medidos o no medidos) formando una escala o gradación entre los extremos. Una dicotomía compara y ubica, pero no explica. Enfoca la observación y sugiere estudios posteriores, pero tiene el inconveniente de que degrada fácilmente en un sistema de valoración. Técnicamente, puede decirse que una dicotomía es una forma particular de esquema clasificatorio. La utilidad explicativa de la dicotomía es heurística: plantea distinciones que requieren explicación y llevan al desarrollo de teorías factoriales. La principal objeción metodológica que puede hacersele es que compara cosas sin saber realmente si son comparables.</p>
+</div>
+<div id="las-analogías" class="section level3 unnumbered">
+<h3>Las analogías</h3>
+<p>Este tipo de cuasi-teoría es muy interesante y complejo. Tiene una larga tradición en el campo de la Ciencia Política. En general se reconoce la existencia de una relación de analogía cuando dos o más fenómenos pueden interpretarse como manifestaciones de un mismo principio regulador, en distintos planos.</p>
+<p>En el campo de la Ciencia Política se utilizan principalmente analogías mecánicas u orgánicas. Se supone -por ejemplo- que la política en general o algún aspecto de ella es análogo en todo o en parte a alguna estructura mecánica o a algún organismo vivo, cuyo conocimiento puede servir para explorar, explicar o predecir algo respecto de los fenómenos estudiados.</p>
+<p>El uso de analogías es útil mientras no se olvide que es solamente una comparación que sirve para dar una primera idea de la cosa, mientras se busca una enunciación más precisa. Por ello su valor es más didáctico y heurístico que investigativo propiamente dicho. Su principal problema es demostrar la real existencia de una relación de analogía entre el fenómeno y su presunto análogo. En la mente del investigador debe estar siempre presente el recuerdo de los peligros que entraña el uso indiscriminado de analogías o metáforas: * Atribuir a la realidad propiedades que son solo de su análogo.</p>
+<ul>
+<li><p>Pasar del análogo a la realidad y de ésta al análogo, creando falsas espectativas.</p></li>
+<li><p>No precisar la congruencia entre el análogo y la realidad.</p></li>
+<li><p>No tener clara conciencia de la utilidad solo parcial de estos instrumentos teóricos<a href="#fn5" class="footnote-ref" id="fnref5"><sup>5</sup></a>.</p></li>
+</ul>
+</div>
+</div>
+<div class="footnotes">
+<hr />
+<ol start="5">
+<li id="fn5"><p>Note: Sobre el tema de este apartado en general, ver Eugène J. Meehan: PENSAMIENTO POLITICO CONTEMPORANEO - Madrid - Rev. de Occidente - 1973 - pg. 19 y ss.<a href="primera-parte.html#fnref5" class="footnote-back">↩︎</a></p></li>
+</ol>
+</div>
+            </section>
+
+          </div>
+        </div>
+      </div>
+<a href="2-Lateoríapolítica.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="segunda-parte.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+    </div>
+  </div>
+<script src="libs/gitbook-2.6.7/js/app.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/lunr.js"></script>
+<script src="libs/gitbook-2.6.7/js/clipboard.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
+<script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-clipboard.js"></script>
+<script>
+gitbook.require(["gitbook"], function(gitbook) {
+gitbook.start({
+"sharing": {
+"github": false,
+"facebook": true,
+"twitter": true,
+"linkedin": true,
+"weibo": false,
+"instapaper": false,
+"vk": true,
+"whatsapp": false,
+"all": ["vk", "linkedin", "twitter", "facebook"],
+"tumblr": false,
+"youtube": false,
+"instagram": false
+},
+"fontsettings": {
+"theme": "white",
+"family": "serif",
+"size": 2
+},
+"edit": {
+"link": "https://github.com/Jeshua-Romero-Guadarrama/CienciaPolitica/edit/master/Capitulo_02.Rmd",
+"text": "Edit"
+},
+"history": {
+"link": null,
+"text": null
+},
+"view": {
+"link": null,
+"text": null
+},
+"download": ["CienciaPolitica.pdf", "CienciaPolitica.epub"],
+"toc": {
+"collapse": "subsection",
+"scroll_highlight": true
+},
+"search": true
+});
+});
+</script>
+
+</body>
+
+</html>
