@@ -1,0 +1,257 @@
+# La teoría política {#Lateoríapolítica}
+
+```{r, eval=knitr::opts_knit$get("rmarkdown.pandoc.to") == "html", results='asis', echo=FALSE}
+cat('<hr style="background-color:#03193b;height:2px">')
+```
+
+Primera parte:
+
+- Fases de la actividad científica: Teorías representativas y normativas 
+- Descripción 
+- Explicación 
+- Generalización 
+- Teoría 
+- Cuasi-teorías: clasificaciones, dicotomías y analogías.
+
+Segunda parte:
+
+- La evaluación del fenómeno político: Ciencia y valoración 
+- Los componentes del juicio normativo: descripción, evaluación técnica, juicio normativo, justificación del juicio normativo.
+
+Tercera parte:
+
+- El concepto teórico político 
+- Comparaciones con otras ciencias: Teoría y Filosofía Política 
+- Ciencia Política como disciplina autónoma 
+- Teoría Política e Historia de las Ideas 
+- Teorías generales y de alcance medio 
+- Dificultades para la elaboración teórica.
+
+## Primera parte {-}
+
+### Fases de la actividad científica {-}
+
+Bertrand de Jouvenel,en su libro TEORIA PURA DE LA POLITICA, cuando habla sobre "teoría" en general, hace notar que las observaciones en sí mismas carecen de significado. Para darles sentido se debe formular una hipótesis que sea capaz de explicarlas.
+
+Esto significa elegir conceptos, establecer relaciones entre ellos para elaborar un "modelo" que interprete adecuadamente la realidad. Esta compleja actividad de la mente humana se designa habitualmente como TEORIZAR; los modelos así elaborados tienen una función representativa-explicativa y carecen de valor normativo.
+
+Bertrand de Jouvenel también menciona que en la Ciencia Política clásica, la llamada Teoría Política también ofrecía modelos, pero de otro tipo: eran modelos ideales o normativos, expresivos de un "deber ser" de los fenómenos aludidos, animados de una intención preceptiva.
+
+Por respeto al pluralismo filosófico y porque forman indudablemente parte del pensamiento político sistemático, vamos a incluir en este libro el estudio de las teorías normativas, pero hacemos notar que en la Ciencia Política actual predomina netamente la actitud descriptiva-explicativa, estrictamente no-normativa.
+
+La actividad científica cuyo producto final son las teorías, y a la que en su conjunto hemos llamado teorizar, consta de varias fases, que se encadenan en una sucesión ordenada. Esas fases reciben los nombres de: * Descripción; * Explicación; * Generalización; * Teoría o Cuasi-teoría. 
+
+### La descripción {-}
+
+Las descripciones proporcionan el punto de partida al pensamiento; precisan aquéllo que luego hay que intentar explicar. Una descripción es válida, desde el punto de vista científico, si es producto de la observación sistemática y puede ser verificada mediante otras observaciones. Para describir hay que tener bien clara la diferencia entre "hecho" y "concepto". Un hecho es un conjunto de propiedades observadas, a las que se les ha puesto nombre. Un concepto es un artificio intelectual, un principio de abstracción, que permite operar con esas observaciones. La validez de los conceptos depende de la relación que guarden con los hechos de observación empírica en el mundo concreto.
+
+Una descripción es más o menos fiable según la calidad y tipo de las observaciones que hayan servido para construirla. En general conviene tener en cuenta los siguientes principios:
+
+- La observación de aspectos objetivos es más fiable que la observación de estados subjetivos.
+- Los datos controlados son más precisos que los obtenidos por simple observación.
+- Los datos medibles son más fiables que los no medibles, pero éstos suelen ser más importantes.
+
+Para describir no basta con disponer de un cúmulo de observaciones. Es necesario tener, además, un esquema conceptual. En principio, este esquema configura una hipótesis e influye mucho en la descripción, y en el significado atribuíble a los hechos involucrados, por lo que es importante que no contenga prejuicios valorativos que puedan afectar la fiabilidad de la descripción.
+
+### La explicación {-}
+
+Un cúmulo de observaciones de hechos aislados no tiene en si mismo significado; la descripción le da un principio de significación, pero la plenitud de su significado y utilidad la alcanza cuando se lograr relacionar sistemáticamente los hechos. Ese proceso de conexión coherente de hechos diferentes se llama EXPLICACION y se hace a partir de descripciones.
+
+En el contexto científico, explicar no significa "captar la esencia" ni nada por el estilo. Todo lo que podemos afirmar es que las cosas ocurren "como si" actuaran de determinada manera, y que podemos usar con razonable seguridad ese conocimiento, aunque no podamos "explicar" (en un sentido más profundo) porqué ese comportamiento es efectivamente así. La explicación vincula dos o más acontecimientos y a la vez crea un conjunto de espectativas hacia el futuro sobre la base de la experiencia del pasado.
+
+En Ciencia Política -como en las ciencias del hombre en general- la inmensa mayoría de las explicaciones son inducciones probabilísticas. Muy rara vez es posible enunciar explicaciones deductivas. Encontramos explicaciones de hechos que probablemente van a ocurrir, pero con un considerable márgen de incertidumbre. Se usan, pues, expresiones tales como "tiende a", o "generalmente", o "en la mayoría de los casos", o a lo sumo "en el n% de los casos" , en lugar de expresiones tales como "siempre" o "nunca".
+
+La búsqueda de una "explicación de la explicación" es el paso a las fases siguientes, de la generalización y la teoría. 
+
+### La generalización {-}
+
+Las generalizaciones se construyen a partir de explicaciones. Formalmente pueden ser definidas como "proposiciones que relacionan dos o más clases de acontecimientos, de modo que todos o algunos de los acontecimientos de una clase lo son también de la otra u otras". Hay tres tipos básicos de generalizaciones: * Las generalizaciones universales, que responden a la forma "todo A es B". Esta relación no es reversible: no todo B es A.
+
+- Las generalizaciones probabilísticas, cuya forma es "el n% de A es B". Este tipo de generalizaciones solo puede aplicarse a clases enteras, no a los miembros de una clase en forma aislada.
+
+- Los enunciados de tendencia, cuya forma es "algunos A son B" o "A tiende a ser B, a menos que algo lo impida". Se diferencian de los anteriores en que no especifican una relación numérica o porcentual entre A y B. También son aplicables a clases, no a individuos aislados.
+
+Actualmente la Ciencia Política está compuesta casi totalmente por generalizaciones probabilísticas y enunciados de tendencia.
+
+Las generalizaciones no son tautológicas porque añaden un conocimiento nuevo al vincular clases de acontecimientos. Son afirmaciones que van más allá de las descripciones y las explicaciones que les sirven de base. Dicen cosas sobre clases de acontecimientos no observadas en su totalidad, razón por la cual ninguna generalización es totalmente cierta, pero sí lo es en la medida de su alcance relativo y contingente.
+
+Una generalización -y en general, toda proposición inductiva-nunca puede "probarse" mediante su cumplimiento en casos particulares, aunque así aumenta evidentemente su márgen de credibilidad. En cambio sí puede "falsearse" mediante la verificación de los casos en los que no se cumple, los cuales, de producirse, invalidan la proposición. En esencia, ésta es la posición epistemológica de Popper. 
+
+### Las teorías y cuasi-teorías {-}
+
+Formalmente, una teoría es "un conjunto de generalizaciones deductivamente vinculadas, que sirve para explicar otras generalizaciones". Fundamentalmente, una teoría debe tener potencia explicativa sobre un determinado orden de fenómenos. También suele tener capacidad predictiva; indica áreas cuyo estudio debe profundizarse y sugiere los probables efectos de cambios producidos o promovidos en las variables que configuran una situación.
+
+Las cuasi-teorías son estructuras conceptuales de tipo teórico, pero no deductivamente vinculadas. Algunas cuasi-teorías explican pero no predicen; otras predicen pero no explican; otras no explican ni predicen pero son muy sugerentes o aportan claridad al ordenamiento de las ideas.
+
+En un planteo lógico-formal estricto, "teoría deductiva" es una jerarquía de proposiciones universales formalmente deducidas de un conjunto de primeros axiomas. En las ciencias del hombre no hay este tipo de teorías. Forzosamente hay que tener un criterio más amplio. Según A. Kaplan, cuando las generalizaciones están conectadas entre sí por medio del fenómeno que han de explicar (que es el caso más frecuente en las ciencias sociales) tenemos las llamadas "teorías concatenadas". Un ejemplo de ellas lo proporcionan las llamadas "teorías de factores", que explican fenómenos determinando las condiciones necesarias, o las suficientes, o ambas, para que el fenómeno se produzca.
+
+Las teorías, pues, pueden ser deductivas (si cumplen las condiciones formales) o concatenadas, las cuales a su vez pueden ser: * causales: se refieren a las condiciones de aparición de los fenómenos; * genéticas: se refieren a los estadios de desarrollo de los fenómenos; * teleológicas: se refieren a su finalidad.
+
+Hasta ahora, la mayor parte de las estructuras conceptuales de la Ciencia Política son cuasi-teorías, excepto algunas teorías factoriales. En Ciencia Política las generalizaciones realmente adecuadas para construir teorías son escasas; hay amplias zonas aún no exploradas en profundidad; la medición es difícil y muchas veces imposible; son muy pocas las posibilidades de realizar experimentos controlados, y la terminología es imprecisa. Por consiguiente, las teorías son débiles y los desarrollos científicos se basan sobre todo en cuasi-teorías, especialmente en dicotomías y analogías.
+
+Para construir cuasi-teorías se supone que un conjunto de fenómenos se comporta de acuerdo a ellas. Se opera con los datos -por ejemplo- como si la analogía o la dicotomía fueran una teoría sólidamente establecida. Estas estructuras explicativas son valiosas; constituyen una estrategia de investigación positiva; son a menudo fuentes de futuras teorías, pero entrañan un riesgo grande: forzar los hechos para acomodarlos a una estructura previa, lo que produce resultados científicamente cuestionables. Los principales tipos de cuasi-teorías son las clasificaciones, las dicotomías y las analogías. 
+
+### Las clasificaciones {-}
+
+Son las formas más simples de estructuras conceptuales teóricas. Son conjuntos de categorías a priori, usados para ordenar los datos provenientes de la observación. Un sistema de clasificación afirma que todos los miembros de una clase particular comparten -por definición- ciertas propiedades. Un buen sistema de este tipo clarifica y puede sugerir muchas cosas, pero no es en sí mismo una explicación ni añade nada nuevo a nuestros conocimientos. Su utilidad reside en el servicio que presta para la recolección ordenada de datos; y en las sugerencias con que puede orientar una investigación, especialmente en áreas poco exploradas. Aunque el ordenamiento propuesto luego resulte incorrecto y haya que reelaborarlo, lo mismo tiene valor porque siempre es más fácil manejar datos ordenados que datos distribuídos al azar. No existe un paradigma clasificatorio que sirva para todo. Cada clasificación responde a un propósito y su única condición de validez es que sea útil.
+
+### Las dicotomías {-}
+
+Hay dos formas de dicotomías: una, más simple, está compuesta por dos polos opuestos, sin términos medios (son, por ejemplo, del tipo blanco/negro, día/noche, etc.). Otra. más compleja, toma la forma de un "continuum" entre dos polos extremos, con un centro o término medio y ciertos intervalos (medidos o no medidos) formando una escala o gradación entre los extremos. Una dicotomía compara y ubica, pero no explica. Enfoca la observación y sugiere estudios posteriores, pero tiene el inconveniente de que degrada fácilmente en un sistema de valoración. Técnicamente, puede decirse que una dicotomía es una forma particular de esquema clasificatorio. La utilidad explicativa de la dicotomía es heurística: plantea distinciones que requieren explicación y llevan al desarrollo de teorías factoriales. La principal objeción metodológica que puede hacersele es que compara cosas sin saber realmente si son comparables.
+
+### Las analogías {-}
+
+Este tipo de cuasi-teoría es muy interesante y complejo. Tiene una larga tradición en el campo de la Ciencia Política. En general se reconoce la existencia de una relación de analogía cuando dos o más fenómenos pueden interpretarse como manifestaciones de un mismo principio regulador, en distintos planos.
+
+En el campo de la Ciencia Política se utilizan principalmente analogías mecánicas u orgánicas. Se supone -por ejemplo- que la política en general o algún aspecto de ella es análogo en todo o en parte a alguna estructura mecánica o a algún organismo vivo, cuyo conocimiento puede servir para explorar, explicar o predecir algo respecto de los fenómenos estudiados.
+
+El uso de analogías es útil mientras no se olvide que es solamente una comparación que sirve para dar una primera idea de la cosa, mientras se busca una enunciación más precisa. Por ello su valor es más didáctico y heurístico que investigativo propiamente dicho. Su principal problema es demostrar la real existencia de una relación de analogía entre el fenómeno y su presunto análogo. En la mente del investigador debe estar siempre presente el recuerdo de los peligros que entraña el uso indiscriminado de analogías o metáforas: * Atribuir a la realidad propiedades que son solo de su análogo.
+
+- Pasar del análogo a la realidad y de ésta al análogo, creando falsas espectativas.
+
+- No precisar la congruencia entre el análogo y la realidad.
+
+- No tener clara conciencia de la utilidad solo parcial de estos instrumentos teóricos^[Note:  Sobre el tema de este apartado en general, ver Eugène J. Meehan: PENSAMIENTO POLITICO CONTEMPORANEO - Madrid - Rev. de Occidente - 1973 - pg. 19 y ss.].
+
+## Segunda parte {-}
+
+### La evaluación del fenómeno político {-}
+
+Como la intención general de esta obra apunta no solo a reseñar el estado actual de la investigación científica en el campo político sino también a aportar elementos para la práctica del análisis político por parte de los lectores, resulta pertinente incluir aquí algunas consideraciones sobre la evaluación del fenómeno político.
+
+En el pensamiento de Eugène Meehan^[Note: Eugène J. Meehan: op. cit., pg. 41 y ss.] hay un intento muy claro y serio de incluir la evaluación entre las tareas de la Ciencia Política. En general, dice Meehan, los científicos huyen de la valoración y es sorprendente ver lo poco que se ha hecho en el ámbito de la Ciencia Política para desarrollar criterios y métodos adecuados para el análisis y evaluación de los fenómenos políticos. Su conclusión es que ese ámbito, abandonado por los politólogos, ha sido finalmente ocupado por otros, con resultados en general lamentables por su subjetivismo, tendenciosidad y condicionamiento ideológico. No hay razón, en su opinión, para que el desarrollo de juicios normativos no se lleve a cabo con el mismo espíritu, con los mismos instrumentos y por las mismas personas, que la explicación científica política.
+
+Hay que producir, pues -según este criterio- un esquema analítico que clarifique la estructura de los juicios normativos en sus aspectos más significativos; y pautas valorativas que les puedan ser aplicadas. Según Meehan, los juicios de valor han de basarse en conocimientos sustantivos de Ciencia Política. El juicio normativo ha de referirse a una realidad, y desarrollarse en forma paralela al proceso de descripción-explicación -generalización que acabamos de ver. Meehan sostiene que es un grosero error pensar que, por la oposición que existe entre enunciados de hecho y de valor, no es posible sostener una discusión razonada sobre las argumentaciones normativas.
+
+Un juicio de valor, o juicio normativo, consta de cuatro elementos:
+
+- Una situación, o sea un conjunto de hechos relacionados, que va a ser objeto de la evaluación, tal como lo provee la descripción, tema que tratamos en el apartado anterior;
+- Un análisis de la relación medios/fines, y un análisis de las consecuencias probables de las acciones, o sea lo que se denomina precisamente evaluación técnica;
+- La reacción o respuesta del evaluador frente a la situación, de acuerdo a su sistema de valores, o sea un juicio normativo;
+- La fundamentación o justificación del juicio normativo, o sea el conjunto de razones de más o menos generalizada aceptación que lo avalan.
+
+La situación (descripción): Es el punto de partida de todo el proceso de evaluación del fenómeno político. La conexión entre observaciones de hechos (obtención de datos) y la definición de la situación está dada por un esquema conceptual.
+
+Para superar en todo lo posible el subjetivismo de estos esquemas, se pueden dar los siguientes pasos:
+
+- Ver si la definición de la situación resulta aceptable a la luz del conocimiento científico de los fenómenos, empleando los mismos criterios utilizados para evaluar descripciones o explicaciones;
+- Estimar en qué magnitud la definición de la situación incluye orientaciones normativas o condicionamientos ideológicos. Ideológicamente, por ejemplo, se suelen disfrazar las evaluaciones de "hechos evidentes por sí mismos".
+
+- Ver qué aspectos de la situación son enfatizados en su definición. Se enfatizan las consecuencias para la sociedad o para el individuo? Se destacan los aspectos subjetivos o los objetivos?
+- Ver qué esquema conceptual se ha utilizado para construir la definición de la situación.
+
+Hay que examinar, pues, cuatro puntos fundamentales: La situación está definida en términos científicamente aceptables? El esquema conceptual contiene alguna orientación normativa? La evaluación parte del individuo o de la comunidad? La evaluación parte de aspectos subjetivos u objetivos? La evaluación técnica: La aparición de la evaluación técnica se debe a que todo juicio normativo en el campo político consta de dos elementos:
+
+- Enunciados sobre la relación entre acciones y objetivos, o sea la relación entre medios y fines de la acción política (que es el objetivo específico de la evaluación técnica);
+- Juicios de valor propiamente dichos (enunciados sobre bondad, conveniencia, justicia, etc., de tales acciones).
+
+La forma general de la evaluación técnica suele ser: "Para conseguir A, hágase B". Una vez definidos los fines de la acción, la elección entre caminos alternativos para realizarlos es un problema de evaluación técnica. Se trata de lograr los "mejores" medios para lograr el fin propuesto (Cuáles? Los más seguros? Los más rápidos? Los más económicos? Los más éticos?). Las evaluaciones técnicas requieren explicaciones potentes, capaces de predecir el probable curso de los acontecimientos, y de determinar qué combinación de variables fundamentan esa predicción.
+
+El juicio normativo: Es la reacción o respuesta de un evaluador frente a una situación. Generalmente se expresa en proposiciones que incluyen expresiones tales como "bueno/malo", "justo/injusto", etc. El significado de tales expresiones es relativo a cada orbe cultural. No está cerrada, ni mucho menos, la discusión filosófica sobre su contenido. Qué son? Reflejos condicionados? Respuestas emocionales? Percepciones personales de cualidades intrínsecas de las situaciones? Lo concreto es que tal significado difiere según las personas y los ámbitos culturales, y que tales juicios "se hacen": las personas los hacen al percibir las situaciones desde el complejo sistema formado por su estructura psicológica, su experiencia existencial, los valores que asimilaron o rechazaron de su sociedad y su cultura, sus emociones y sentimientos, sus intereses y racionalizaciones.
+
+En sí mismos, los juicios normativos son enunciados de hecho sobre la reacción del individuo que los formula ante una situación. Hasta allí no hay nada que decir. Los cuestionamientos pueden surgir cuando se intenta fundamentar o justificar tales juicios.
+
+La justificación del juicio normativo: Para justificar científicamente un juicio normativo tendríamos que disponer de criterios de los que la ciencia, al menos hasta ahora, carece. Los juicios normativos, mientras permanecen en un nivel personal no requieren justificación. Pero los razonamientos morales casi siempre tienden a salir de ese nivel y hacerse prescriptivos. Lo que "es bueno para mí" tiende a convertirse en lo que "los demás deben aceptar como bueno", o, más aún, en lo que "es bueno en sí mismo". En ese paso desde lo personal hacia lo social prescriptivo aparece el problema de la justificación del juicio normativo.
+
+Dónde encontrar esos principios que resulten científicamente aceptables como fundamento de los juicios normativos? Cómo escapar a la crítica científica de los principios filosóficos, religiosos y éticos, cuestionados desde el punto de vista científico por considerar que incurren en subjetivismo, relativismo cultural, etnocentrismo, etc.? Recordamos dos intentos de este tipo: uno vinculado al nombre de Immanuel Kant; otro, al de Alfred Stern.
+
+Dice el imperativo categórico de Kant: "Hay que actuar como si la máxima que inspira tu acción hubiera de convertirse por tu voluntad en una ley natural universal". Este célebre enunciado es, sin duda, una de las cumbres del pensamiento filosófico, pero aparecen no pocos obstáculos cuando se intenta instrumentarlo en la práctica, o sea utilizarlo como fundamento de juicios normativos concretos. Kant mismo intentó aportar los criterios necesarios para ello, pero sin llegar a una solución plenamente satisfactoria:
+
+- Hay que tratar a los hombres como fines y no como medios;
+- No hay que eximirse a sí mismo de las normas morales;
+- Hay que aceptar la buena voluntad como único bien intrínseco.
+
+Tales normas morales son muy valiosas, sin duda, pero no son decisivas. Kant desembocó finalmente en una especie de utilitarismo, y el utilitarismo por sí solo no puede habilitar una elección de pleno sentido ético entre líneas alternativas de acción.
+
+Otro pensamiento de Kant , de similar orientación aunque más limitado en sus alcances, si bien alude directamente a un problema claramente político (que es el de la conflictiva relación entre el poder visible y el poder invisible), se encuentra en el Apéndice de su "Paz perpetua", en el que Kant enunció e ilustró el principio fundamental según el cual "...todas las acciones relativas al derecho de otros hombres, cuya máxima no es susceptible de tornarse pública, son injustas".
+
+Norberto Bobbio^[Note: Norberto Bobbio: IL FUTURO DELLA DEMOCRAZIA. UNA DIFESA DELLE REGOLE DEL GIOCO - Torino - Einaudi Ed. - 1984 .- (3) Alfred Stern: LA FILOSOFIA DE LA HISTORIA Y EL PROBLEMA DE LOS VALORES - Bs. As. - Eudeba - 1965.] la comenta diciendo que una acción que me veo obligado a mantener secreta es ciertamente no solo una acción injusta sino sobre todo una acción que, si se volviera pública, suscitaría una reacción tán grande que tornaría imposible su ejecución. Para usar el ejemplo dado por el propio Kant: Qué Estado podría declarar públicamente, en el mismo momento en que firma un tratado internacional, que no lo cumplirá? Qué funcionario público podría afirmar en público que usará el dinero público para fines privados? De este planteo del problema resulta que la exigencia de publicidad de los actos de gobierno es importante no solo (como se acostumbra decir) para permitir al ciudadano conocer los actos de quien detenta el poder y así controlarlos, sino también porque la publicidad es en sí misma una forma de control, un recurso para diferenciar lo lícito de lo ilícito.
+
+Alfred Stern, en su libro LA FILOSOFÍA DE LA HISTORIA Y EL PROBLEMA DE LOS VALORES (3), después de hacer amplias referencias al carácter relativo, contingente, cultural, histórico de los valores en general, afirma haber encontrado un valor trans-histórico, válido para todo tiempo, lugar y cultura: "Todos los hombres le han atribuido siempre un valor positivo a la vida y a la salud y un valor negativo a la enfermedad y a la muerte". El enunciado es interesante, y el autor lo fundamenta en numerosas observaciones históricas ("no hubo suicidios masivos en los campos de concentración", por ejemplo), pero cabrían algunas consideraciones para matizarlo, sobre la importancia de las condiciones de esa vida y el rol de la esperanza en la superación de condiciones-límite.
+
+En síntesis, todo intento de justificación científica de razonamientos normativos conduce al enunciado de "primeros principios" que científicamente no se pueden fundamentar ni rechazar.No ocurre lo mismo en otros planos (moral, filosófico, religioso) de acuerdo a cuyas normas sí es posible formular evaluaciones normativas de fenómenos políticos. Cuál es, entonces, en definitiva, el aporte posible del enfoque científico en la formulación y el análisis de los juicios normativos? En nuestra opinión, ese aporte -muy importante, porque es un punto de partida- consiste en un más preciso esquema descriptivo-explicativo del fenómeno en sí, y en la correcta formulación de una evaluación técnica, sobre la adecuación de medios a fines. Ese es el límite del enfoque científico puro. Más allá se entra en un terreno donde lo científico colinda y se superpone con lo filosófico y lo religioso.- 
+
+## Tercera parte {-}
+
+### El concepto teórico político. Comparaciones con los de otras ciencias {-}
+
+Klaus von Beyme, en su obra TEORÍAS POLÍTICAS CONTEMPORÁNEAS-UNA INTRODUCCIÓN^[Note: Klaus von Beyme: TEORIAS POLITICAS CONTEMPORANEAS - UNA INTRODUCCION - Instituto de Estudios Políticos - Madrid - 1977.], recuerda que en el contexto de las ciencias sociales, el desarrollo autónomo de la Ciencia Política moderna ha sido relativamente tardío. Hoy se entiende a la Ciencia Política como una ciencia diferenciada, en el ámbito de las ciencias sociales, que ha logrado un grado apreciable de acuerdo sobre su objeto y sus métodos.
+
+La clásica separación de la Ciencia Política-teoría de las instituciones y Ciencia Política-teoría de los procesos políticos es cada vez menos sostenible. Mientras tanto, en todo el ámbito de las ciencias sociales se incrementa la exigencia de una colaboración interdisciplinaria. Esto se debe a dos razones: el riesgo que supone para las ciencias sociales la excesiva atomización de sus objetos; y el hecho ampliamente comprobado de que cada ciencia se basta a sí misma para describir los fenómenos de que se ocupa pero necesita del apoyo de otras ciencias para explicarlos.
+
+La Teoría Política es, sin duda, un caso bastante particular, porque durante dos milenios la Filosofía Política ha proporcionado la contribución más importante a la teoría de la política. Pese a ello, hoy la Ciencia Política está reconocida como disciplina científica autónoma, al menos en todas las democracias occidentales, pero hay que hacer notar que, a diferencia de otras ramas filosóficas, la Filosofía Política se caracterizó siempre, al margen de su preocupación normativa, por su fuerte contenido empírico.
+
+En su proceso formativo como ciencia social, la Ciencia Política tuvo que afrontar dos reproches principales: arrancar a otras disciplinas "las plumas para adornarse con ellas" (compartir parcialmente su objeto de estudio con otras disciplinas); y ser la responsable de la decadencia de la teoría política en el siglo XX porque los valores morales ya no tienen cabida en ella y la dominan técnicos y especialistas.
+
+Una inseguridad adicional para la Ciencia Política -continúa comentando von Beyme- surgió del hecho de que a los cultores de esta disciplina no les correspondía ningún papel fijo que desempeñar dentro del cuadro de los roles profesionales establecidos en la sociedad burguesa. Con el tiempo, dice von Beyme, los graduados en Ciencia Política en los países desarrollados han ido consiguiendo puestos de trabajo en los siguientes campos: * Tareas docentes (profesores de ciencia social, formación de adultos); * Medios de comunicación de masas; * Actividades organizativas en la economía, la política y sus asociaciones; y en la administración pública, debido al desarrollo de una ciencia administrativa orientada cada vez menos en sentido jurídico y cada vez más como ciencia social.
+
+A nuestro entender, desde que von Beyme anotó estas reflexiones a principios de la década de los setenta hasta hoy, el panorama de los roles profesionales de los politólogos se ha ampliado y esclarecido pero siempre en esa misma dirección básica. Creemos que hoy el conjunto de funciones sociales accesibles al politólogo puede describirse como sigue:
+
+- Investigación científica (pura y aplicada);
+- Análisis político (asesoramiento específico o formación de opinión pública a través de los medios de comunicación social);
+- Docencia en ciencias sociales (secundaria, terciaria, universitaria, promoción cultural de la tercera edad, capacitación empresarial);
+- Gestión de políticas (diseño, planificación, coordinación de procesos de toma de decisión, coordinación de la ejecución, evaluación de políticas, análisis-aprendizaje);
+- Coordinación de equipos interdisciplinarios para la resolución de problemas públicos;
+- Político profesional;
+- Servicio exterior de la Nación u organismos internacionales;
+- Función pública jerarquizada.
+
+Volviendo a la historia de nuestra ciencia, encontramos que, dentro del conjunto de las ciencias sociales, la Ciencia Política fue reconocida como disciplina independiente primero en los EE.UU., bajo fuerte influencia europea. La primera cátedra norteamericana de la especialidad fue creada en la Universidad de Harvard hacia fines de la década de 1850, y confiada a Francis Lieber, un profesor emigrado de Alemania, de tendencia liberal. Los pioneros americanos en este campo fueron J.W. Burgess y A.P. Bentley, que realizaron estudios de especialización en Alemania.
+
+En Francia, en la década de 1870, encontramos la "Ecole Libre des Sciences Politiques", fundada en 1872 por Emile Boutmi, la cual es aún hoy el principal centro francés de estudio de las ciencias políticas.
+
+En Inglaterra, un rol similar fue cumplido por la "London School of Economics and Political Science", institución que incluso alcanzó mucha influencia política práctica debido, por ejemplo, a la labor de Harold Laski.
+
+En Alemania, recién después de la Primera Guerra Mundial se creó en Berlin un organismo investigador y docente (la "Hochschule für Politik") que fue el origen del mayor instituto alemán actual de Ciencia Política, el "Otto Suhr - Institut".
+
+En España, el "Instituto de Estudios Políticos" de Madrid nació como institución de propaganda de la Falange, pero con la tendencia, que luego se desarrollaría ampliamente, hacia estudios políticos autónomos.
+
+En Italia, los gloriosos antecedentes históricos que remontan a Maquiavelo y reconocen en Mosca y Pareto a los fundadores de la escuela italiana de Ciencia Política, sobrevivían solamente en el "Instituto Cesaro Alhieri" de Florencia, que fue suprimido por el fascismo, que fundó luego otras escuelas (Pavía, Padua, Perugia y Roma) que fueron la base de esa magnífica floración de la Ciencia Política italiana actual, que reconoce en B. Leoni, N. Bobbio y G. Sartori a tres grandes formadores de las nuevas generaciones de politólogos italianos.
+
+En general, en sus manifestaciones académico-institucionales, la Ciencia Política ha cumplido un doble rol, como "ciencia auxiliar de los gobernantes" (afirmación que muchas veces se formula como un reproche) y como ciencia crítica y sobre todo esclarecedora respecto de la política práctica.
+
+No hay en Ciencia Política una teoría general o unitaria predominante, de generalizada aceptación, como la que podemos encontrar, por ejemplo, en Economía. La actitud científica dominante en el mundo académico anglosajón -el neopositivismo- se pronuncia abiertamente en favor del pluralismo teórico, y aunque ya quedó atrás la postura del behaviorismo extremo, que equiparaba la Teoría Política con la Historia de las Ideas, y se le reconoce un lugar propio y autónomo en el ámbito de las ciencias sociales, aún se afirma, como dice H. Albert^[Note: H. Albert: TRAKTAT ÜBER KRITISCHE VERNUNFT, 1968, pg. 49; citado por K. von Beyme, op. cit.] que "...nunca se puede estar seguro de que determinada teoría sea cierta, aún cuando parezca resolver los problemas que plantea".
+
+Por nuestra parte, recordamos aquí que las teorías generales transitan por un nivel muy elevado de abstracción , muy alejado del nivel empírico donde podrían hallar verificación o falsación.
+
+La producción teórica en Ciencia Política se inscribe en su mayor parte en las que Robert Merton denomina "teorías de alcance medio": teorías descriptivas-explicativas de modesto alcance, con algunos intentos de elevación hacia mayores niveles de abstracción.
+
+En Ciencia Política, al igual que en otras ciencias sociales, se pueden encontrar los siguientes tipos de teorías: Teorías descriptivas: Son conjuntos de generalizaciones (relaciones entre clases de acontecimientos) basadas en conceptualizaciones y relaciones de origen empírico, ocasionalmente cuantitativas.
+
+Teorías sistemáticas: Son sistematizaciones de base empírica, construidas en el marco de supuestos genéricos, de cierto nivel de abstracción.
+
+Teorías deductivas: Formulan patrones de conducta hipotéticos, deducidos a partir de algunos axiomas básicos.
+
+Teorías funcionales: Son interpretaciones de fenómenos que son parte de conjuntos mayores, construidas a partir del análisis de la función que tales fenómenos cumplen para el mantenimiento del conjunto en un determinado estado (o para cambiar de estado).
+
+Teorías genéticas: Formulan hipótesis sobre el origen y el desarrollo inicial de fenómenos, estableciendo relaciones de causalidad o implicancia.
+
+C.J. Friedrich^[Note:  C. J. Friedrich: PROLEGOMENA DER POLITIK. ERFAHRUNG UND IHRE THEORIE, Berlín, 1967, pg. 9; citado por K. von Beyme, op. cit.] plantea una tipología de las teorías más simple:
+
+- Teorías morfológicas (tipo Copérnico);
+- Teorías genéticas(tipo Darwin);
+- Teorías funcionales (tipo Newton).
+
+El prestigio académico y social de la Teoría Política ha variado mucho a lo largo del tiempo. Klaus von Beyme hace notar que en la historia de las ciencias sociales se alternan períodos de rechazo a la teoría (como la década de los '50) y períodos de gran auge teórico (como la década de los '60). Parece lógico pensar, como dice K. Deutsch, que en toda investigación importante la creación teórica, la metodología y los resultados empíricos se equilibran; pero desde el punto de vista del sentido final de la labor científica pensamos que pueden suscribirse las palabras de Dahrendorf cuando dice: "La intención de la ciencia empírica es siempre teórica. La investigación experimental tiene justificación lógica únicamente como medio de control de las hipótesis derivadas de las teorías...".
+
+Veamos, entonces, cuales son las características principales de las teorías políticas. En Ciencia Política -a semejanza de otras ciencias sociales- las teorías contienen tres elementos:
+
+- Un sistema de proposiciones estructuradas, referentes a partes de la realidad política;
+- Una especificación de las condiciones bajo las cuales son válidas tales proposiciones;
+- La posibilidad de formular hipótesis predictivas sobre desarrollos futuros, en forma de enunciados de tendencia o de probabilidad, o sea proposiciones condicionales.
+
+Cuando una teoría ha sido confirmada muchas veces, cuando ha demostrado ampliamente su operatividad, se la denomina ley. Cuando aún necesita verificaciones posteriores, se la llama hipótesis.
+
+El cuerpo teórico de la Ciencia Política está compuesto por elementos de diverso grado de abstracción:
+
+- Generalizaciones (relaciones entre clases de acontecimientos) que constituyen la mayor parte de la Ciencia Política;
+- Teorías sobre temas parciales (semejantes a las teorías de alcance medio, de R. Merton);
+- Intentos de plantear una teoría general (no aceptados en forma generalizada) como la teoría sistémica política de D. Easton.
+
+En muchos casos, la política (lo mismo que la sociedad) es estudiada en sus posibilidades de ser manipulada, buscando, no una comprensión de sus procesos, sino soluciones prácticas, inmediatas, a problemas políticos concretos. Esto lleva frecuentemente a un exagerado auge de los procedimientos analíticos y de los conceptos que resulten operativos en la práctica, sin que preocupen mayormente su veracidad, su sentido histórico, etc. Priman en estos casos las exigencias de su aplicación en una tecnología social determinada.
+
+La Ciencia Política encuentra numerosas dificultades en su elaboración teórica. Hemos de tener cuidado, en un repaso como el que vamos a hacer en los próximos capítulos, para no ser demasiado exigentes, porque muchas obras no satisfacen, o satisfacen a duras penas, las exigencias formales de una teoría científica.
+
+Una dificultad principal en la elaboración teórica de la Ciencia Política se origina en la ubicación de las fuentes; no tanto de las fuentes de los procesos sociales como las fuentes individuales dispersas: los poderosos, los que realmente toman las decisiones o hacen que otros las tomen por ellos. Allí, frecuentemente el poder se protege a sí mismo, en el ocultamiento de los "arcana imperii", todavía vigentes, pese al torbellino de mensajes con que nos bombardean los medios, o gracias a ellos.
+
+Hay muchos trabajos valiosos en Ciencia Política, que más que teorías acabadas son interpretaciones o esquemas analíticos. Tienen valor como acumulación de materiales; como manual divulgatorio o introductorio; como recensión del "estado actual de la cuestión" o ensayo provisional. Sirvan estas líneas como explicación de la presencia, en un Manual de Teoría Política, de muchos trabajos que un criterio más estricto hubiera desechado.
