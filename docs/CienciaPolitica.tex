@@ -159,11 +159,7 @@ Publicado por Jeshua Romero Guadarrama en colaboración con JeshuaNomics:
 Jeshua Romero Guadarrama es economista y actuario por la Universidad Nacional Autónoma de México, quien ha construido el presente proyecto en colaboración con JeshuaNomics, ubicado en la Ciudad de México, se puede contactar mediante el siguiente correo electrónico: \href{mailto:jeshuanomics@gmail.com}{\nolinkurl{jeshuanomics@gmail.com}}.
 Última actualización el jueves 01 del 07 de 2021
 
-Los estudiantes con poca experiencia en estadística y econometría a menudo tienen dificultades para entender los beneficios de desarrollar habilidades de programación al momento de aplicar diversos métodos econométricos. CienciaPolitica: Econometría avanzada y ciencia de datos con R por Jeshua Romero Guadarrama (2021), ofrece una introducción interactiva a los aspectos esenciales de la programación por medio del lenguaje y software estadístico R, así como una guía para la aplicación de la teoría económica y econométrica en entornos específicos. En otras palabras, el objetivo es que los estudiantes se adentren al mundo de la economía aplicada mediante ejemplos empíricos presentados en la vida diaria y haciendo uso de las habilidades de programación recién adquiridas. Dicho objetivo se encuentra respaldado por ejercicios de programación interactivos generados con DataCamp Light y la incorporación de visualizaciones dinámicas de conceptos fundamentales mediante la flexibilidad de JavaScript, a través de la biblioteca D3.js.
-
-En los últimos años, el lenguaje de programación estadística R se ha convertido en una parte integral del plan de estudios de las clases de econometría que se imparten en las universidades. Regularmente una gran parte de los estudiantes no han estado expuestos a ningún lenguaje de programación antes y, por lo tanto, tienen dificultades para participar en el aprendizaje de R por sí mismos. Con poca experiencia en estadística y econometría, es natural que los novicios tengan dificultades para comprender los beneficios de desarrollar habilidades en R para aprender y aplicar la econometría. Estos incluyen particularmente la capacidad de realizar, documentar y comunicar estudios empíricos y tener las facilidades para programar estudios de simulación, lo cual es útil para, por ejemplo, comprender y validar teoremas que generalmente no se asimilan o entienden fácilmente con el estudio de las fórmulas. Al ser un economistas aplicado y econometrista, me gustaría que mis colegas desarrollen capacidades de gran valor; en consecuencia, deseo compartir con las nuevas generaciones de economistas mis conocimientos.
-
-En lugar de confrontar a los estudiantes con ejercicios de codificación puros y literatura clásica complementaria, he pensado que sería mejor proporcionar material de aprendizaje interactivo que combine el código en R con el contenido del curso de texto \emph{Introducción a la Econometría} de \citet{stock2015} que sirve de base para el presente material. El presente trabajo es un complemento empírico interactivo al estilo de un informe de investigación reproducible que permite a los estudiantes no solo aprender cómo los resultados de los estudios de casos se pueden replicar con R, sino que también fortalece su capacidad para utilizar las habilidades recién adquiridas en otras aplicaciones empíricas.
+El presente texto nace al calor de las exigencias pedagógicas de todos los ciudadanos mexicanos interesados en la ciencia política. A partir de los años que he pasado detrás de innumerables libros (con el objetivo de gestar, buscar y probar nuevos conocimientos), ve la luz pública este trabajo, que fué creciendo y cambiando lentamente, empezando como apuntes de la universidad. Creo que ha alcanzado la madurez suficiente para ser compartido con el mundo. Con independencia de su valor intrínseco, tengo entendido que hace mucho tiempo que no se hacía una obra de este tipo (lo que ciertamente le corresponde al lector juzgar). En la bibliografía especializada disponible en castellano, el antecedente más inmediato que conozco es \textbf{Teorías políticas contemporáneas: Una introducción}, de Klaus von Beyme. La primera edición alemana es de 1972, cuya edición en castellano (difícil de hallar), es de 1977. Esa obra fué mi primera orientación; en consecuencia, mantengo en lo fundamental su esquema y algo de su terminología (tengo una deuda intelectual con el formidable profesor de Heildelberg).
 
 \hypertarget{las-convenciones-usadas-en-el-presente-curso}{%
 \subsubsection*{Las convenciones usadas en el presente curso}\label{las-convenciones-usadas-en-el-presente-curso}}
@@ -171,80 +167,325 @@ En lugar de confrontar a los estudiantes con ejercicios de codificación puros y
 
 \begin{itemize}
 \item
-  El texto \emph{en cursiva} indica nuevos términos, nombres, botones y similares.
+  El texto \emph{en cursiva} indica nuevos términos, nombres y similares.
 \item
-  El texto \textbf{en negrita} se usa generalmente en párrafos para referirse al código \textbf{R}. Esto incluye comandos, variables, funciones, tipos de datos, bases de datos y nombres de archivos.
+  El texto \textbf{en negrita} se usa generalmente en párrafos para referirse a términos que se recomienda memorizar.
 \item
-  Texto de ancho constante sobre fondo gris indica un código \textbf{R} que usted puede escribir literalmente. Puede aparecer en párrafos para una mejor distinción entre declaraciones de código ejecutables y no ejecutables, pero se encontrará principalmente en forma de grandes bloques de código \textbf{R}. Estos bloques se denominan fragmentos de código.
+  Texto de ancho constante sobre fondo gris indica un enfoque teórico o metodológico común en la Práctica por la Ciencia Política.
 \end{itemize}
 
 \hypertarget{reconocimiento}{%
 \subsubsection*{Reconocimiento}\label{reconocimiento}}
 \addcontentsline{toc}{subsubsection}{Reconocimiento}
 
-A mi alma máter: Universidad Nacional Autónoma de México. Facultad de Economía. Por brindarme valiosas oportunidades que coadyuvaron a mi formación.
+A mi alma máter: Universidad Nacional Autónoma de México (Facultad de Economía y Facultad de Ciencias). Por brindarme valiosas oportunidades que coadyuvaron a mi formación.
 
-ÍNDICE SUMARIO DE SUS CONTENIDOS:
-
-Capítulo 1: LA TEORÍA POLÍTICA
-
-\begin{enumerate}
-\def\labelenumi{\alph{enumi})}
-\item
-  Consideraciones generales: La teoría científica social - Cuestiones metodológicas - Principios actuales - Críticas a la ciencia.
-\item
-  Fases de la actividad científica: Teorías representativas y normativas - Descripción - Explicación - Generalización - Teoría - Cuasi-teorías: clasificaciones, dicotomías y analogías.
-\item
-  La evaluación del fenómeno político: Ciencia y valoración - Los componentes del juicio normativo: descripción, evaluación técnica, juicio normativo, justificación del juicio normativo.
-\item
-  El concepto teórico político - Comparaciones con otras ciencias: Teoría y Filosofía Política - Ciencia Política como disciplina autónoma - Teoría Política e Historia de las Ideas - Teorías generales y de alcance medio - Dificultades para la elaboración teórica.
-\end{enumerate}
-
-Capítulo 2: LAS TEORIAS NORMATIVAS
+\hypertarget{uxedndice-de-contenido}{%
+\section*{Índice de contenido}\label{uxedndice-de-contenido}}
+\addcontentsline{toc}{section}{Índice de contenido}
 
 \begin{enumerate}
-\def\labelenumi{\alph{enumi})}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
 \item
-  Rasgos generales: Condiciones históricas y trasfondos ideológicos - Clasificación de las teorías normativas - Raíces intelectuales - Fundamentos - Finalidad- Relaciones - Metodología.
-\item
-  Teorías políticas normativas clásicas: chinas, hindúes, judías, islámicas, griegas, romanas, medievales y modernas.
-\item
-  Teorías políticas normativas contemporáneas: El asalto al absolutismo - Las consecuencias de la Revolución Francesa - Socialismos y nacionalismos - Las teorías normativas actuales.
-\item
-  Enfoques metodológicos usuales: Métodos: histórico, analógico, práctico, tópico, pedagógico. El pragmatismo metodológico.
+  Introducción
 \end{enumerate}
 
-Capítulo 3: LAS TEORIAS EMPIRICO-ANALITICAS
+\begin{itemize}
+\tightlist
+\item
+  Consideraciones generales: La teoría científica social.
+\item
+  Cuestiones metodológicas.
+\item
+  Principios actuales.
+\item
+  Críticas a la ciencia.
+\end{itemize}
 
 \begin{enumerate}
-\def\labelenumi{\alph{enumi})}
+\def\labelenumi{\arabic{enumi}.}
+\setcounter{enumi}{1}
+\tightlist
 \item
-  Rasgos generales: El positivismo, el empirismo y sus derivados - El objeto y el método - Problemas actuales.
-\item
-  Behaviorismo, estructural-funcionalismo y enfoque sistémico. El enfoque comparatista: Descripción de los enfoques - Síntesis de obras teóricas de estas corrientes.
-\item
-  Las explicaciones de base psicológica individual: La Psicología del estímulo-respuesta - La Psicología de la Gestalt - La Teoría del Campo - El freudismo ortodoxo - El neofreudismo.
-\item
-  El Formalismo - La Teoría de los Juegos - La Teoría de la Información y la Cibernética - Modelos y simulaciones.
-\item
-  Enfoques metodológicos usuales: Puntos en común - Particularidades metodológicas - Reflexiones sobre el lenguaje y la elaboración conceptual.
+  La teoría política
 \end{enumerate}
 
-Capítulo 4: LAS TEORIAS CRITICO-DIALECTICAS Introducción general: Repercusiones del tema - Aportes perdurables del marxismo.
+\begin{itemize}
+\tightlist
+\item
+  Primera parte
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Fases de la actividad científica: Teorías representativas y normativas.
+  \item
+    La descripción.
+  \item
+    La explicación.
+  \item
+    La generalización.
+  \item
+    Las teoría y cuasi-teorías.
+  \item
+    Clasificaciones.
+  \item
+    Dicotomías.
+  \item
+    Analogías.
+  \end{itemize}
+\item
+  Segunda parte
+
+  \begin{itemize}
+  \tightlist
+  \item
+    La evaluación del fenómeno político: Ciencia y valoración.
+  \item
+    Los componentes del juicio normativo: descripción, evaluación técnica, juicio normativo, justificación del juicio normativo.
+  \end{itemize}
+\item
+  Tercera parte
+
+  \begin{itemize}
+  \tightlist
+  \item
+    El concepto teórico político.
+  \item
+    Comparaciones con otras ciencias: Teoría y filosofía política.
+  \item
+    Ciencia política como disciplina autónoma.
+  \item
+    Teoría política e historia de las ideas.
+  \item
+    Teorías generales y de alcance medio.
+  \item
+    Dificultades para la elaboración teórica.
+  \end{itemize}
+\end{itemize}
 
 \begin{enumerate}
-\def\labelenumi{\alph{enumi})}
+\def\labelenumi{\arabic{enumi}.}
+\setcounter{enumi}{2}
+\tightlist
 \item
-  El marxismo clásico. Rasgos generales: Marx y Engels - Conte- nidos del marxismo - Primera y segunda generación de sucesores.
-\item
-  El marxismo occidental: La Escuela de Frankfurt - Otros intelectuales europeos marxistas -Intelectuales norteamericanos marxistas - La Nueva Izquierda.
-\item
-  La labor teórica en los países socialistas europeos.
-\item
-  Las teorías crítico-dialécticas en los países del tercer mundo: El maoísmo y sus derivados asiáticos -El socialismo africano- El marxismo latinoamericano: Justo, Mariátegui y Haya de la Torre; la Nueva Izquierda latinoamericana, el castrismo, el sandinismo, el allendismo chileno. Relaciones de estas teorías con la Teología de la Liberación.
-\item
-  Enfoques metodológicos usuales: Materialismo dialéctico y materialismo histórico - Teoría y praxis - Otros aportes metodológicos.
+  Las teorías normativas
 \end{enumerate}
+
+\begin{itemize}
+\tightlist
+\item
+  Primera parte
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Rasgos generales: Condiciones históricas y trasfondos ideológicos.
+  \item
+    Clasificación de las teorías normativas.
+  \item
+    Raíces intelectuales.
+  \item
+    Fundamentos.
+  \item
+    Finalidad.
+  \item
+    Relaciones.
+  \item
+    Metodología.
+  \end{itemize}
+\item
+  Segunda parte
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Teorías políticas normativas clásicas: chinas, hindúes, judías, islámicas, griegas, romanas, medievales y modernas.
+  \end{itemize}
+\item
+  Tercera parte
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Teorías políticas normativas contemporáneas: El asalto al absolutismo.
+  \item
+    Las consecuencias de la Revolución Francesa.
+  \item
+    Socialismos y nacionalismos.
+  \item
+    Las teorías normativas actuales.
+  \end{itemize}
+\item
+  Cuarta parte
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Enfoques metodológicos usuales.
+  \item
+    Métodos: histórico, analógico, práctico, tópico, pedagógico.
+  \item
+    El pragmatismo metodológico.
+  \end{itemize}
+\end{itemize}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\setcounter{enumi}{3}
+\tightlist
+\item
+  Las teorías empírico-analíticas
+\end{enumerate}
+
+\begin{itemize}
+\tightlist
+\item
+  Primera parte
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Rasgos generales: El positivismo, el empirismo y sus derivados.
+  \item
+    El objeto y el método.
+  \item
+    Problemas actuales.
+  \end{itemize}
+\item
+  Segunda parte
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Behaviorismo, estructural-funcionalismo y enfoque sistémico.
+  \item
+    El enfoque comparatista: Descripción de los enfoques.
+  \item
+    Síntesis de obras teóricas de estas corrientes.
+  \end{itemize}
+\item
+  Tercera parte
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Las explicaciones de base psicológica individual: La Psicología del estímulo-respuesta.
+  \item
+    La psicología de la Gestalt.
+  \item
+    La teoría del campo.
+  \item
+    El freudismo ortodoxo.
+  \item
+    El neofreudismo.
+  \end{itemize}
+\item
+  Cuarta parte
+
+  \begin{itemize}
+  \tightlist
+  \item
+    El Formalismo.
+  \item
+    La teoría de los juegos.
+  \item
+    La Teoría de la información y la cibernética.
+  \item
+    Modelos y simulaciones.
+  \end{itemize}
+\item
+  Quinta parte
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Enfoques metodológicos usuales: Puntos en común.
+  \item
+    Particularidades metodológicas.
+  \item
+    Reflexiones sobre el lenguaje y la elaboración conceptual.
+  \end{itemize}
+\end{itemize}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\setcounter{enumi}{4}
+\tightlist
+\item
+  Las teorías critico-dialécticas
+\end{enumerate}
+
+\begin{itemize}
+\tightlist
+\item
+  Primera parte
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Introducción general: Repercusiones del tema
+  \item
+    Aportes perdurables del marxismo.
+  \item
+    El marxismo clásico. Rasgos generales: Marx y Engels.
+  \item
+    Contenido del marxismo.
+  \item
+    Primera y segunda generación de sucesores.
+  \end{itemize}
+\item
+  Segunda parte
+
+  \begin{itemize}
+  \tightlist
+  \item
+    El marxismo occidental: La escuela de Frankfurt.
+  \item
+    Otros intelectuales europeos marxistas.
+  \item
+    Intelectuales norteamericanos marxistas.
+  \item
+    La Nueva Izquierda.
+  \end{itemize}
+\item
+  Tercera parte
+
+  \begin{itemize}
+  \tightlist
+  \item
+    La labor teórica en los países socialistas europeos.
+  \end{itemize}
+\item
+  Cuarta parte
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Las teorías crítico-dialécticas en los países del tercer mundo: El maoísmo y sus derivados asiáticos.
+  \item
+    El socialismo africano.
+  \item
+    El marxismo latinoamericano: Justo, Mariátegui y Haya de la Torre.
+  \item
+    La nueva izquierda latinoamericana, el castrismo, el sandinismo, el allendismo chileno.
+  \item
+    Relaciones del marxismo latinoamericano con la teología de la liberación.
+  \end{itemize}
+\item
+  Quinta parte
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Enfoques metodológicos usuales: Materialismo dialéctico y materialismo histórico.
+  \item
+    Teoría y praxis.
+  \item
+    Otros aportes metodológicos.
+  \end{itemize}
+\end{itemize}
 
 \hypertarget{Introducciuxf3n}{%
 \chapter{Introducción}\label{Introducciuxf3n}}
@@ -1364,12 +1605,12 @@ El arte de conducir al Estado tiene reglas precisas, que Richelieu desarrolla la
 Esta obra fue publicada tardíamente, cuando el apogeo del absolutismo monárquico ya había producido una reacción pro-liberal. Es una obra que expresa, teórica y prácticamente, esa pasión casi mística por el Estado, que es el fundamento emocional del absolutismo y que lleva a concebir un Estado que trasciende en forma absoluta los intereses concretos de los grupos humanos que lo componen y expresa, o pretende expresar solamente el interés supremo de la Nación, al que todo ha de subordinarse. En ese sentido puede ser entendida como una visión precursora de las ideologías nacionalistas que en el siglo XX concibieron a la Nación, al Estado o a la Patria como una entelequia de naturaleza metafísica, desconectada de la concreta manifestación sociológica y antropológica de su encarnación histórica real\footnote{Note: Chatelet, Duhamel y Pisier, op. cit.}.
 
 \hypertarget{tercera-parte-1}{%
-\subsection*{Tercera parte}\label{tercera-parte-1}}
-\addcontentsline{toc}{subsection}{Tercera parte}
+\section*{Tercera parte}\label{tercera-parte-1}}
+\addcontentsline{toc}{section}{Tercera parte}
 
 \hypertarget{teoruxedas-poluxedticas-normativas-contemporuxe1neas}{%
-\section*{Teorías políticas normativas contemporáneas}\label{teoruxedas-poluxedticas-normativas-contemporuxe1neas}}
-\addcontentsline{toc}{section}{Teorías políticas normativas contemporáneas}
+\subsection*{Teorías políticas normativas contemporáneas}\label{teoruxedas-poluxedticas-normativas-contemporuxe1neas}}
+\addcontentsline{toc}{subsection}{Teorías políticas normativas contemporáneas}
 
 Las obras políticas que vamos a intentar describir aquí abarcan un largo e intenso período de tiempo, que va desde fines del siglo XVII hasta nuestros días. Siguiendo en parte a J.J. Chevalier, hemos dividido ese tiempo en cuatro subperíodos, por razones de claridad expositiva y aceptando las limitaciones del esquematismo que tienen siempre tales divisiones: -el asalto al absolutismo (1690-1789); - las consecuencias de la revolución francesa (1789-1848); - los socialismos y los nacionalismos (1849-1927) - las teorías actuales (1928 en adelante).
 
