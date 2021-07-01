@@ -50,7 +50,7 @@ options(knitr.duplicate.label = "allow")
 cat('<hr style="background-color:#03193b;height:2px">')
 ```
 
-<center><img style = 'width:60%;' src='images/CienciaPolitica.png'></center>
+<center><img style = 'width:60%;' src='docs/images/CienciaPolitica.png'></center>
 
 ```{r, eval=my_output == "html", echo=FALSE, results='asis'}
 cat('<hr style="background-color:#03193b;height:2px">')
