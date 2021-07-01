@@ -1,6 +1,6 @@
 ---
 title: "Ciencia Política: Teoría y Práctica"
-cover-image: "docs/images/cover.png"
+cover-image: "images/cover.png"
 author: "Jeshua Romero Guadarrama"
 date: "`r Sys.Date()`"
 site: bookdown::bookdown_site
@@ -50,14 +50,14 @@ options(knitr.duplicate.label = "allow")
 cat('<hr style="background-color:#03193b;height:2px">')
 ```
 
-<center><img style = 'width:60%;' src='docs/images/CienciaPolitica.png'></center>
+<center><img style = 'width:60%;' src='images/CienciaPolitica.png'></center>
 
 ```{r, eval=my_output == "html", echo=FALSE, results='asis'}
 cat('<hr style="background-color:#03193b;height:2px">')
 ```
 
-<center><img style = 'width:30%;' src='docs/images/cover.png'></center>
-<br><center><img style='float: center; width:50%' src='docs/images/logo_claim_en_rgb.png'/></center>
+<center><img style = 'width:30%;' src='images/cover.png'></center>
+<br><center><img style='float: center; width:50%' src='images/logo_claim_en_rgb.png'/></center>
 <br><center><a href="https://www.jeshuanomics.com/" target="blank">Publicado por Jeshua Romero Guadarrama en colaboración con JeshuaNomics:</a></center>
 <br><center><a href="https://github.com/JeshuaNomics" class="fa fa-github"><span class="label">  Git Hub</span></a>
 <a href="https://www.facebook.com/JeshuaNomics/" class="fa fa-facebook"><span class="label">  Facebook</span></a>
