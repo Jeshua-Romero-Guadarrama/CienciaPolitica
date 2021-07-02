@@ -1,0 +1,22 @@
+h1:FRNL Funciones de regresión no lineal
+h2:una-estrategia-general-para-modelar-funciones-de-regresión-no-lineal Una estrategia general para modelar funciones de regresión no lineal
+h2:FNLUVI Funciones no lineales de una única variable independiente
+h3:polinomios Polinomios
+h4:interpretación-de-coeficientes-en-modelos-de-regresión-no-lineal Interpretación de coeficientes en modelos de regresión no lineal
+h3:logaritmos Logaritmos
+h4:caso-i-x-está-en-logaritmo-y-no. Caso I:  está en logaritmo,  no.
+h4:caso-ii-y-está-en-logaritmo-x-no Caso II:  está en logaritmo,  no
+h4:caso-iii-y-y-x-están-en-logaritmos Caso III:  y  están en logaritmos
+h2:interacciones-entre-variables-independientes Interacciones entre variables independientes
+h4:interacciones-entre-dos-variables-binarias Interacciones entre dos variables binarias
+h4:aplicación-a-la-proporción-de-estudiantes-por-maestro-y-el-porcentaje-de-estudiantes-de-inglés Aplicación a la proporción de estudiantes por maestro y el porcentaje de estudiantes de inglés
+h4:interacciones-entre-una-variable-continua-y-una-binaria Interacciones entre una variable continua y una binaria
+h4:aplicación-a-la-proporción-de-estudiantes-por-maestro-y-el-porcentaje-de-estudiantes-de-inglés-1 Aplicación a la proporción de estudiantes por maestro y el porcentaje de estudiantes de inglés
+h4:interacciones-entre-dos-variables-continuas Interacciones entre dos variables continuas
+h4:aplicación-a-la-proporción-de-estudiantes-por-maestro-y-el-porcentaje-de-estudiantes-de-inglés-2 Aplicación a la proporción de estudiantes por maestro y el porcentaje de estudiantes de inglés
+h4:ejemplo-la-demanda-de-revistas-económicas Ejemplo: La demanda de revistas económicas
+h2:efectos-no-lineales-en-los-puntajes-de-las-pruebas-de-la-proporción-alumno-maestro Efectos no lineales en los puntajes de las pruebas de la proporción alumno-maestro
+h4:modelos-de-regresión-no-lineal-de-puntajes-de-prueba Modelos de regresión no lineal de puntajes de prueba
+h4:resumen Resumen
+h2:Ejercicios-8 Ejercicios
+

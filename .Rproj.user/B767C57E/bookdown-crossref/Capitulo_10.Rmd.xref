@@ -1,0 +1,18 @@
+h1:EEBRM Evaluación de estudios basados en regresión múltiple
+h2:validez-interna-y-externa Validez interna y externa
+h4:amenazas-a-la-validez-interna Amenazas a la validez interna
+h4:amenazas-a-la-validez-externa Amenazas a la validez externa
+h2:AVIARM Amenazas a la validez interna del análisis de regresión múltiple
+h4:sesgo-de-variable-omitida Sesgo de variable omitida
+h4:especificación-incorrecta-de-la-forma-funcional-de-la-función-de-regresión Especificación incorrecta de la forma funcional de la función de regresión
+h4:error-de-medición-y-sesgo-de-errores-en-variables Error de medición y sesgo de errores en variables
+h4:selección-de-muestra-y-datos-faltantes Selección de muestra y datos faltantes
+h4:causalidad-simultánea Causalidad simultánea
+h4:fuentes-de-inconsistencia-de-errores-estándar-de-mco Fuentes de inconsistencia de errores estándar de MCO
+h2:validez-interna-y-externa-cuando-la-regresión-se-usa-para-pronosticar Validez interna y externa cuando la regresión se usa para pronosticar
+h2:EPETC Ejemplo: Puntajes de exámenes y tamaño de la clase
+h4:validez-externa-del-estudio Validez externa del estudio
+h4:validez-interna-del-estudio Validez interna del estudio
+h4:resumen Resumen
+h2:Ejercicios-9 Ejercicios
+

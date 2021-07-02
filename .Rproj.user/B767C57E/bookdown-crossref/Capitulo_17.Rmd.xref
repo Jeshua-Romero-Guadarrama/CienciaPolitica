@@ -1,0 +1,18 @@
+h1:TARST Temas adicionales en la regresión de series temporales
+h2:autorregresiones-vectoriales Autorregresiones vectoriales
+h4:un-modelo-var-de-la-tasa-de-crecimiento-del-pib-y-el-margen-temporal Un modelo VAR de la tasa de crecimiento del PIB y el margen temporal
+h4:pronósticos-multivariados-iterados-usando-un-var-iterado Pronósticos multivariados iterados usando un VAR iterado
+h4:pronósticos-directos-para-múltiples-períodos Pronósticos directos para múltiples períodos
+h2:OIPRUDFGLS Órdenes de integración y prueba de raíz unitaria DF-GLS
+h4:la-prueba-df-gls-para-una-raíz-unitaria La prueba DF-GLS para una raíz unitaria
+h2:cointegración Cointegración
+h4:pruebas-de-cointegración Pruebas de cointegración
+h4:aplicación-a-las-tasas-de-interés Aplicación a las tasas de interés
+h5:un-modelo-de-corrección-de-errores-vectoriales-para-tb10ys_t-y-tb3ms Un modelo de corrección de errores vectoriales para  y 
+h2:agrupación-de-volatilidad-y-heterocedasticidad-condicional-autorregresiva Agrupación de volatilidad y heterocedasticidad condicional autorregresiva
+fig:pcw5000 Rendimientos porcentuales diarios en el índice Wilshire 5000
+fig:acfw5000 Autocorrelación en los cambios diarios de precios del índice W5000
+h3:modelos-arch-y-garch Modelos ARCH y GARCH
+h3:aplicación-a-la-volatilidad-del-precio-de-las-acciones Aplicación a la volatilidad del precio de las acciones
+h3:resumen Resumen
+

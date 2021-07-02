@@ -1,0 +1,33 @@
+h1:IRSTP Introducción a la regresión de series de tiempo y pronóstico
+h2:uso-de-modelos-de-regresión-para-la-previsión Uso de modelos de regresión para la previsión
+h2:DSTCS Datos de series de tiempo y correlación serial
+h3:notación-retrasos-diferencias-logaritmos-y-tasas-de-crecimiento Notación, retrasos, diferencias, logaritmos y tasas de crecimiento
+h4:autocorrelación Autocorrelación
+h4:otros-ejemplos-de-series-de-tiempo-económicas Otros ejemplos de series de tiempo económicas
+h2:autoregresiones Autoregresiones
+h4:el-modelo-autorregresivo-de-primer-orden El modelo autorregresivo de primer orden
+h4:pronósticos-y-errores-de-pronóstico Pronósticos y errores de pronóstico
+h4:pronósticos-y-valores-previstos Pronósticos y valores previstos
+h4:aplicación-al-crecimiento-del-pib Aplicación al crecimiento del PIB
+h3:modelos-autorregresivos-de-orden-p Modelos autorregresivos de orden 
+h2:PGMPI ¿Puede ganarle al mercado? (Parte I)
+h2:PAMADL Predictores adicionales y el modelo ADL
+h4:pronóstico-del-crecimiento-del-pib-mediante-el-diferencial-de-plazos Pronóstico del crecimiento del PIB mediante el diferencial de plazos
+h4:estacionariedad Estacionariedad
+h4:regresión-de-series-temporales-con-varios-predictores Regresión de series temporales con varios predictores
+h4:inferencia-estadística-y-prueba-de-causalidad-de-granger Inferencia estadística y prueba de causalidad de Granger
+h3:incertidumbre-de-pronóstico-e-intervalos-de-pronóstico Incertidumbre de pronóstico e intervalos de pronóstico
+h2:SLRUCI Selección de la longitud de retraso utilizando criterios de información
+h2:NEIT No estacionariedad I: Tendencias
+h4:el-modelo-de-caminata-aleatoria-de-una-tendencia El modelo de caminata aleatoria de una tendencia
+h4:problemas-causados-por-tendencias-estocásticas Problemas causados por tendencias estocásticas
+h4:prueba-para-una-raíz-unitaria-ar Prueba para una raíz unitaria AR
+h4:valores-críticos-para-el-estadístico-adf Valores críticos para el estadístico ADF
+h4:tiene-el-pib-de-ee.-uu.-una-raíz-unitaria ¿Tiene el PIB de EE. UU. una raíz unitaria?
+h2:NEIIP No estacionariedad II: Pausas
+h4:se-ha-mantenido-estable-el-poder-predictivo-del-diferencial-de-plazo ¿Se ha mantenido estable el poder predictivo del diferencial de plazo?
+h4:pronóstico-pseudo-fuera-de-la-muestra Pronóstico pseudo fuera de la muestra
+h4:cambió-el-poder-predictivo-de-la-extensión-del-término-durante-la-década-de-2000 ¿Cambió el poder predictivo de la extensión del término durante la década de 2000?
+h2:puedes-ganarle-al-mercado-parte-ii ¿Puedes ganarle al mercado? (Parte II)
+h4:resumen Resumen
+
