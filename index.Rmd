@@ -38,6 +38,7 @@ url: 'https://jeshua-romero-guadarrama.github.io/CienciaPolitica/'
 tags: [Academia, Teoría política, Ciencia política, Teoría política, Práctica política]
 favicon: "images/logo.png"
 ---
+
 # Prefacio {-}
 
 ```{r, echo = F}
@@ -84,9 +85,9 @@ El presente texto nace al calor de las exigencias pedagógicas de todos los ciud
 
 + El texto *en cursiva* indica nuevos términos, nombres y similares.
 
-+ El texto **en negrita** se usa generalmente en párrafos para referirse a términos que se recomienda memorizar. 
++ El texto **en negrita** se usa generalmente en párrafos para referirse a conceptos que se recomienda memorizar. 
 
-+ <code>Texto de ancho constante sobre fondo gris</code> indica un enfoque teórico o metodológico común en la Práctica por la Ciencia Política. 
++ <code>Texto de ancho constante sobre fondo gris</code> indica un enfoque teórico o metodológico comúnmente utilizado en la práctica por los politólogos. 
 
 #### Reconocimiento {-}
 
@@ -104,6 +105,7 @@ Esta obra está autorizado bajo la [Creative Commons Attribution-NonCommercial-S
 Parte I Introducción a la teoría política
 
 Capítulos:
+
 - La teoría política
 - Las teorías normativas
 - Las teorías empirico-analiticas
@@ -112,6 +114,7 @@ Capítulos:
 Parte II Conceptos fundamentales de teoría política
 
 Capítulos:
+
 - En busca de modelos de la sociedad y la política
 - Los modelos de integración y orden
 - Los modelos de conflicto
@@ -120,14 +123,15 @@ Capítulos:
 Parte III La teoría política ante el panorama mundial
 
 Capítulos:
+
 - Teorías del primer mundo para el análisis del segundo y del tercer mundo
 - Teorías del desarrollo político
 - Teorías del imperialismo y de la dependencia
 - La teoría política ante América latina. análisis y perspectivas
 
 Parte IV Derecho constitucional mexicano
-
 Capítulos:
+
 - Teoría de la Constitución
 - Los poderes Ejecutivo y Legislativo
 - El Poder Judicial

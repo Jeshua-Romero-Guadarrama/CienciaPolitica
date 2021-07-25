@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2021.5.12)  25 JUL 2021 00:38
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2021.5.12)  25 JUL 2021 01:14
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -902,17 +902,17 @@ Chapter 2.
 ]
 Chapter 3.
 [43]
-Underfull \hbox (badness 1728) in paragraph at lines 1768--1769
+Underfull \hbox (badness 1728) in paragraph at lines 1799--1800
 \T1/lmr/m/n/10 CON-TEM-PORÁNEAS ASALTO AL AB-SO-LUTISMO CON-SE-CUEN-CIA
  []
 
 [44] [45] [46] [47]
-Underfull \hbox (badness 1009) in paragraph at lines 1835--1837
+Underfull \hbox (badness 1009) in paragraph at lines 1866--1868
 []\T1/lmr/m/n/10 Pensamiento político chino: Con-fu-cio: TRATA-DOS MORALES Y
  []
 
 
-Underfull \hbox (badness 1521) in paragraph at lines 1847--1848
+Underfull \hbox (badness 1521) in paragraph at lines 1878--1879
 \T1/lmr/m/n/10 DIS-CUR-SOS SO-BRE LA PRIMERA DECADA DE TITO LIVIO
  []
 
@@ -921,12 +921,12 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 [61] [62] [63] [64] [65] [66] [67] [68] [69] [70] [71] [72] [73] [74] [75] [76]
 [77] [78] [79] [80] [81] [82] [83] [84] [85] [86] [87] [88] [89] [90]
-Underfull \hbox (badness 3919) in paragraph at lines 2447--2449
+Underfull \hbox (badness 3919) in paragraph at lines 2478--2480
 []\T1/lmr/m/n/10 Jean Jau-rès: HIS-TO-RIA SO-CIAL-ISTA DE LA REV-OLU-CIÓN
  []
 
 [91] [92] [93]
-Underfull \hbox (badness 1642) in paragraph at lines 2543--2545
+Underfull \hbox (badness 1642) in paragraph at lines 2574--2576
 []\T1/lmr/m/n/10 ``Liberalismo y democ-ra-cia no son sinón-i-mos. La democ-ra-c
 ia es
  []
@@ -936,7 +936,7 @@ ia es
 ]
 Chapter 4.
 [101] [102] [103] [104]
-Underfull \hbox (badness 10000) in paragraph at lines 2749--2749
+Underfull \hbox (badness 10000) in paragraph at lines 2780--2780
 [][]\T1/lmr/bx/n/12 Behaviorismo, estructural-funcionalismo y en-foque
  []
 
@@ -947,13 +947,13 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 [135] [136] [137] [138] [139] [140] [141] [142] [143] [144] [145] [146] [147] [
 148] [149] [150] [151] [152]
-Underfull \hbox (badness 1533) in paragraph at lines 3387--3388
+Underfull \hbox (badness 1533) in paragraph at lines 3418--3419
 []\T1/lmr/m/n/10 Edward C. Tol-man planteó un mod-elo psi-cológico afín con el 
 en-foque
  []
 
 
-Underfull \hbox (badness 1102) in paragraph at lines 3387--3388
+Underfull \hbox (badness 1102) in paragraph at lines 3418--3419
 \T1/lmr/m/n/10 Pre-senta cierto in-terés pero se trata de un mod-elo más heurís
 -tico que
  []
@@ -973,88 +973,88 @@ arning (ext4): destination with the same identifier (name{Lasteoruxedasempuxedr
 icoanaluxedticas}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.4010 ...{Lasteoruxedasempuxedricoanaluxedticas}}
+l.4041 ...{Lasteoruxedasempuxedricoanaluxedticas}}
                                                    [201] [202
 
 ]
 Chapter 5.
 [203]
-Underfull \hbox (badness 2469) in paragraph at lines 4089--4091
+Underfull \hbox (badness 2469) in paragraph at lines 4120--4122
 []\T1/lmr/m/n/10 ADORNO, Theodor W. ``LA PER-SON-AL-I-DAD AU-TORI-TARIA'',
  []
 
 [204]
-Underfull \hbox (badness 4995) in paragraph at lines 4158--4160
+Underfull \hbox (badness 4995) in paragraph at lines 4189--4191
 []\T1/lmr/m/n/10 ARON, Ray-mond ``DEMOC-RA-CIA Y TO-TAL-I-TARISMO'', Seix,
  []
 
 
-Underfull \hbox (badness 2781) in paragraph at lines 4167--4170
+Underfull \hbox (badness 2781) in paragraph at lines 4198--4201
 []\T1/lmr/m/n/10 BALANDIER, George ``ANTROPOLO-GIA PO-LIT-ICA'', Penín-sula,
  []
 
 
-Underfull \hbox (badness 2359) in paragraph at lines 4191--4194
+Underfull \hbox (badness 2359) in paragraph at lines 4222--4225
 []\T1/lmr/m/n/10 BOBBIO, Nor-berto ``IL FU-TURO DELLA DEMOCRAZIA. UNA
  []
 
 [205]
-Underfull \hbox (badness 1152) in paragraph at lines 4230--4234
+Underfull \hbox (badness 1152) in paragraph at lines 4261--4265
 \T1/lmr/m/n/10 AT-LANTIC AREA. IN-TER-NA-TIONAL OR-GA-NI-ZA-TION IN THE
  []
 
 
-Underfull \hbox (badness 1184) in paragraph at lines 4241--4244
+Underfull \hbox (badness 1184) in paragraph at lines 4272--4275
 \T1/lmr/m/n/10 en Fin-kle y Gable ``PO-LIT-I-CAL DE-VEL-OP-MENT AND SO-CIAL
  []
 
 
-Underfull \hbox (badness 3209) in paragraph at lines 4258--4260
+Underfull \hbox (badness 3209) in paragraph at lines 4289--4291
 []\T1/lmr/m/n/10 ECKSTEIN, H. y APTER, D. ``COM-PAR-A-TIVE POL-I-TICS. A
  []
 
 [206]
-Underfull \hbox (badness 10000) in paragraph at lines 4263--4266
+Underfull \hbox (badness 10000) in paragraph at lines 4294--4297
 []\T1/lmr/m/n/10 EISENSTADT, S.N. ``MOD-ERN-IZA-CION, MOVIMIEN-TOS DE
  []
 
 [207]
-Underfull \hbox (badness 1466) in paragraph at lines 4335--4338
+Underfull \hbox (badness 1466) in paragraph at lines 4366--4369
 []\T1/lmr/m/n/10 HOMANS, George C. ``SO-CIAL BE-HAV-IOR: ITS EL-E-MEN-TARY
  []
 
 
-Overfull \hbox (5.76244pt too wide) in paragraph at lines 4365--4368
+Overfull \hbox (5.76244pt too wide) in paragraph at lines 4396--4399
 []\T1/lmr/m/n/10 JAGUARIBE-FURTADO-FALETTO-DITELLA-ESPARTACO-SUNKEL-
  []
 
 
-Underfull \hbox (badness 2111) in paragraph at lines 4370--4372
+Underfull \hbox (badness 2111) in paragraph at lines 4401--4403
 []\T1/lmr/m/n/10 ---------------- ``DE-SAR-ROLLO POLITICO - SEN-TIDO Y CONDI-
  []
 
 [208]
-Underfull \hbox (badness 1112) in paragraph at lines 4435--4436
+Underfull \hbox (badness 1112) in paragraph at lines 4466--4467
 []\T1/lmr/m/n/10 LEWIN, Kurt ``FIELD THE-ORY IN SO-CIAL SCI-ENCE'', Dor-win
  []
 
 [209]
-Underfull \hbox (badness 1270) in paragraph at lines 4531--4532
+Underfull \hbox (badness 1270) in paragraph at lines 4562--4563
 []\T1/lmr/m/n/10 ORGANSKI, A.F.K. ``THE STAGES OF PO-LIT-I-CAL DE-VEL-OP-
  []
 
 [210]
-Underfull \hbox (badness 2197) in paragraph at lines 4571--4573
+Underfull \hbox (badness 2197) in paragraph at lines 4602--4604
 []\T1/lmr/m/n/10 PYE, L.W. ``COM-MU-NI-CA-TIONS AND PO-LIT-I-CAL DE-VEL-OP-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4573--4576
+Underfull \hbox (badness 10000) in paragraph at lines 4604--4607
 []\T1/lmr/m/n/10 --------- ``POL-I-TICS, PER-SON-AL-ITY AND NATION-BUIDING.
  []
 
 [211]
-Underfull \hbox (badness 1142) in paragraph at lines 4669--4671
+Underfull \hbox (badness 1142) in paragraph at lines 4700--4702
 []\T1/lmr/m/n/10 VOEGELIN, Eric ``NUEVA CIEN-CIA DE LA PO-LIT-ICA'', Ri-alp,
  []
 
@@ -1070,11 +1070,11 @@ Package rerunfilecheck Info: File `CienciaPolitica.out' has not changed.
 Here is how much of TeX's memory you used:
  20634 strings out of 480806
  371632 string characters out of 5903166
- 642803 words of memory out of 5000000
+ 642804 words of memory out of 5000000
  37026 multiletter control sequences out of 15000+600000
  477366 words of font info for 75 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 83i,8n,83p,3092b,446s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 83i,8n,83p,3092b,448s stack positions out of 5000i,500n,10000p,200000b,80000s
 {c:/Users/jeshu/AppData/Roaming/TinyTeX/texmf-dist/fonts/enc/dvips/lm/lm-ec.e
 nc}{c:/Users/jeshu/AppData/Roaming/TinyTeX/texmf-dist/fonts/enc/dvips/lm/lm-ts1
 .enc}<c:/Users/jeshu/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/l
@@ -1088,7 +1088,7 @@ t/fonts/type1/public/lm/lmr7.pfb><c:/Users/jeshu/AppData/Roaming/TinyTeX/texmf-
 dist/fonts/type1/public/lm/lmr8.pfb><c:/Users/jeshu/AppData/Roaming/TinyTeX/tex
 mf-dist/fonts/type1/public/lm/lmri10.pfb><c:/Users/jeshu/AppData/Roaming/TinyTe
 X/texmf-dist/fonts/type1/public/lm/lmro10.pfb>
-Output written on CienciaPolitica.pdf (213 pages, 844224 bytes).
+Output written on CienciaPolitica.pdf (213 pages, 844159 bytes).
 PDF statistics:
  1672 PDF objects out of 1728 (max. 8388607)
  1432 compressed objects within 15 object streams
