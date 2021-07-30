@@ -1,4 +1,4 @@
-book_filename: "CienciaPolitica"
+book_filename: "Ciencia_politica"
 output_dir: docs
 delete_merged_file: true
 rmd_files: ["index.Rmd",
