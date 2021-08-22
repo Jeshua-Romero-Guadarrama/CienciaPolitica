@@ -107,13 +107,11 @@ A mi alma máter: Universidad Nacional Autónoma de México (Facultad de Econom�
 </p>
 
 ```{r, eval=knitr::opts_knit$get("rmarkdown.pandoc.to") == "html", results='asis', echo=FALSE}
-cat('<br><center>
-![Creative Commons License](https://mirrors.creativecommons.org/presskit/buttons/88x31/svg/by-nc-sa.eu.svg)
-</center>
-
-<p align="justify">
-Esta obra está autorizado bajo la [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-nc-sa/4.0/).
-</p>')
+cat('
+<br>
+<center>![Creative Commons License](https://mirrors.creativecommons.org/presskit/buttons/88x31/svg/by-nc-sa.eu.svg)</center>
+<p align="justify">Esta obra está autorizado bajo la [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-nc-sa/4.0/).</p>
+')
 ```
 
 ## Contenido {-}
