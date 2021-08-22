@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2021.8.8)  22 AUG 2021 00:37
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2021.8.8)  22 AUG 2021 01:41
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1076,7 +1076,7 @@ Package rerunfilecheck Info: File `Ciencia_politica.out' has not changed.
 Here is how much of TeX's memory you used:
  20728 strings out of 480502
  373313 string characters out of 5898082
- 648264 words of memory out of 5000000
+ 648265 words of memory out of 5000000
  37421 multiletter control sequences out of 15000+600000
  477366 words of font info for 75 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
